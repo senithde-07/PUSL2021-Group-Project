@@ -63,7 +63,6 @@ public class login extends HttpServlet {
                 empsession.setAttribute("email", email);
                 response.sendRedirect("index.jsp");
                 empsession.setAttribute("email", email);
-
             } else {
                 String message = "Invalid email or password!";
                 request.setAttribute("message", message);
