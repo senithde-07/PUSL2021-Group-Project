@@ -34,7 +34,7 @@ public class loadtemp extends HttpServlet {
             ResultSet rs = ps.executeQuery();
 
             if (rs.next()) {
-                String emailmsg= rs.getString("message");
+                String emailmsg = rs.getString("message");
                 request.setAttribute("mail", emailmsg);
                 request.getRequestDispatcher("solution.jsp").forward(request, response);
 

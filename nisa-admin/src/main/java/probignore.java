@@ -14,7 +14,7 @@ public class probignore extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String student_id = request.getParameter("id");
-        PrintWriter out=response.getWriter();
+        PrintWriter out = response.getWriter();
 
         // db configurations
         Connection con = null;

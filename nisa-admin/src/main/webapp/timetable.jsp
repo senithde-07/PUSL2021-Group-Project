@@ -113,7 +113,8 @@
                             ResultSet resultSet = null;
                             ResultSet resultSet1 = null;
                         %>
-                        <select required name="batch" class="bg-green-500 border border-white-300 text-gray-900 text-m rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-green-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        <select required name="batch"
+                                class="bg-green-500 border border-white-300 text-gray-900 text-m rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-green-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                             <option value="0">Select Batch</option>
                             <%
                                 try {
@@ -202,7 +203,8 @@
                         Degree Offerer
                     </th>
                     <td class="px-6 py-4">
-                        <select required name="degree" class="bg-green-500 border border-white-300 text-gray-900 text-m rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-green-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        <select required name="degree"
+                                class="bg-green-500 border border-white-300 text-gray-900 text-m rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-green-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                             <option>Select Degree Offerer</option>
                             <%
                                 try {
@@ -272,8 +274,10 @@
                         Semester
                     </th>
                     <td class="px-6 py-4">
-                        <select required name="sem" class="bg-green-500 border border-white-300 text-gray-900 text-m rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-green-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                            <option value="0">Select the semester</option>">
+                        <select required name="sem"
+                                class="bg-green-500 border border-white-300 text-gray-900 text-m rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-green-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            <option value="0">Select the semester</option>
+                            ">
                             <option value="Y1S1">Y1S1</option>
                             <option value="Y1S2">Y1S2</option>
                             <option value="Y2S1">Y2S1</option>

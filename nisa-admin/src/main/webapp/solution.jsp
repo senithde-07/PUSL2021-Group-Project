@@ -160,8 +160,9 @@
         <div class="mb-6">
 
             <label for="message" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Message</label>
-            <textarea  id="message" rows="4"  name="message"
-                      class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-500" required>${mail}</textarea>
+            <textarea id="message" rows="4" name="message"
+                      class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-500"
+                      required>${mail}</textarea>
 
         </div>
         <div class="flex items-start mb-6">

@@ -24,9 +24,9 @@ public class login extends HttpServlet {
         HttpSession empsession = request.getSession();
         PrintWriter out = response.getWriter();
 
-        try{
+        try {
             String email = request.getParameter("email");
-            String password =request.getParameter("password");
+            String password = request.getParameter("password");
 
             //response.sendRedirect("/date_time.jsp");
             String HashedPassword = null;
@@ -70,7 +70,7 @@ public class login extends HttpServlet {
                 request.getRequestDispatcher("login.jsp").forward(request, response);
             }
 
-        }catch (ClassNotFoundException | NoSuchAlgorithmException | SQLException e) {
+        } catch (ClassNotFoundException | NoSuchAlgorithmException | SQLException e) {
 
             out.print(e);
 

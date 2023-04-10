@@ -13,7 +13,7 @@ public class probtosolution extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        PrintWriter out=response.getWriter();
+        PrintWriter out = response.getWriter();
         String student_id = request.getParameter("id");
 
 
@@ -34,14 +34,13 @@ public class probtosolution extends HttpServlet {
             PreparedStatement ps = con.prepareStatement("SELECT template_message.message FROM template_message INNER JOIN problem WHERE template_message.template_name=problem.problem AND problem.student_id=?");
             ps.setString(1, student_id);
             ResultSet rs = ps.executeQuery();
-            if(rs.next()) {
+            if (rs.next()) {
                 String emailmsg = rs.getString(1);
                 request.setAttribute("mail", emailmsg);
                 request.setAttribute("student_id", student_id);
                 request.getRequestDispatcher("solution.jsp").forward(request, response);
-            }
-            else {
-                String errormsg="Select a template, or type a message and enter the student ID to send a mail to the required student!";
+            } else {
+                String errormsg = "Select a template, or type a message and enter the student ID to send a mail to the required student!";
                 request.setAttribute("message", errormsg);
                 request.getRequestDispatcher("solution.jsp").forward(request, response);
             }
@@ -50,11 +49,10 @@ public class probtosolution extends HttpServlet {
         }
 
 
-   }
+    }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
 
 
     }
