@@ -98,7 +98,7 @@
                         <%
                             String driverName = "com.mysql.jdbc.Driver";
                             String connectionUrl = "jdbc:mysql://localhost:3306/";
-                            String dbName = "nisa_admin";
+                            String dbName = "nisa_nsbm";
                             String userId = "root";
                             String password = "";
 

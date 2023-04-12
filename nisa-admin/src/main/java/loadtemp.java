@@ -25,7 +25,7 @@ public class loadtemp extends HttpServlet {
         Statement st = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/nisa_admin", "root", "");
+            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/nisa_nsbm", "root", "");
             st = con.createStatement();
 
             PreparedStatement ps = con.prepareStatement("SELECT message FROM template_message WHERE template_name=? ");

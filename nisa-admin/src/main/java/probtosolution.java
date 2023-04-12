@@ -24,7 +24,7 @@ public class probtosolution extends HttpServlet {
         try {
             Class.forName("com.mysql.jdbc.Driver");
 
-            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/nisa_admin", "root", "");
+            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/nisa_nsbm", "root", "");
             st = con.createStatement();
 
             PreparedStatement ps1 = con.prepareStatement("UPDATE problem SET status = 'ok' WHERE student_id=?;");
