@@ -12,8 +12,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-    <title>login</title>
+    <title>Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 </head>
 <body>
 <section class="flex flex-col md:flex-row h-screen items-center">
@@ -28,7 +29,7 @@
         <div class="w-full h-100">
             <img src="assets/img/NSBM Logo.png" class="w-40 mb-10 mx-auto">
             <h1 class="font-bold text-5xl text-center ">Login</h1>
-            <h1 class="text-xl md:text-2xl font-bold leading-tight mt-12">Welcome! Please Enter Your Details</h1>
+            <h1 class="text-xl md:text-2xl font-bold  mt-12 text-center">Welcome! Please Enter Your Details</h1>
             <p class="text-m font-bold my-2 text-red-500 text-center">${message}<p>
             <form class="mt-6" method="POST" action="login">
                 <div>

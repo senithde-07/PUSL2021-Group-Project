@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: ACER
+  Date: 4/13/2023
+  Time: 3:38 AM
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@page import="java.sql.ResultSet" %>
 <%@page import="java.util.HashMap" %>
@@ -31,7 +38,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
-    <title>Dashboard</title>
+    <title>View Timetable</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 </head>
 
@@ -60,8 +67,8 @@
             <img src="assets/img/NSBM Logo.png" class="w-40 mb-10 mx-auto">
             <ul class="space-y-2 font-medium">
                 <li>
-                    <a href="#"
-                       class="flex items-center p-2 text-gray-900 font-bold rounded-lg dark:text-white hover:bg-green-500 dark:hover:bg-gray-700">
+                    <a href="index.jsp"
+                       class="flex items-center p-2 text-gray-900  rounded-lg dark:text-white hover:bg-green-500 dark:hover:bg-gray-700">
                         <span class="ml-3"><i class="fa fa-dashboard icons"></i>&nbsp;&nbsp;Dashboard</span>
                     </a>
                 </li>
@@ -99,7 +106,7 @@
                 </li>
                 <li>
                     <button type="button"
-                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700"
+                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg  group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700"
                             aria-controls="dropdown-example" data-collapse-toggle="dropdown-example-2">
                             <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item> <i
                                     class="fa fa-building"></i>&nbsp;&nbsp;Hall Allocation</span>
@@ -123,7 +130,7 @@
                 </li>
                 <li>
                     <button type="button"
-                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700"
+                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg font-bold group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700"
                             aria-controls="dropdown-example" data-collapse-toggle="dropdown-example-3">
                             <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item> <i
                                     class="fa fa-calendar"></i>&nbsp;&nbsp;Time Table</span>
@@ -203,7 +210,7 @@
         <div class="box-border h-25 w-full p-4 border-4 ...">
             <div class="grid grid-cols-3 gap-4 mb-2">
                 <div class="flex items-center justify-self-start ">
-                    <h1 class="font-bold text-4xl uppercase">Dashboard</h1>
+                    <h1 class="font-bold text-4xl uppercase">View timetable</h1>
                 </div>
                 <div class="flex items-center justify-center ">
 
@@ -218,25 +225,61 @@
 </div>
 
 <div class="p-4 sm:ml-64">
-    <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
-        <div class="grid grid-cols-3 gap-4 mb-4">
-            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-            </div>
-            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-            </div>
-            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-            </div>
-        </div>
-        <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-            <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-        </div>
-        <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-            <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-        </div>
-    </div>
+    <table class="table-auto w-full text-sm text-left text-gray-500 dark:text-gray-400 border ">
+        <thead class="text-xs text-gray-700 uppercase bg-green-500 dark:bg-gray-700 dark:text-gray-400">
+        <tr>
+            <th scope="col"
+                class="px-6 py-3 text-white font-black border-r dark:border-neutral-500 text-center uppercase">
+                batch
+            </th>
+            <th scope="col"
+                class="px-6 py-3 text-white font-black border-r dark:border-neutral-500 text-center uppercase">
+                degree offerer
+            </th>
+            <th scope="col"
+                class="px-6 py-3 text-white font-black border-r dark:border-neutral-500 text-center uppercase">
+                semester
+            </th>
+            <th scope="col"
+                class="px-6 py-3 text-white font-black border-r dark:border-neutral-500 text-center uppercase">
+                link
+            </th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th scope="row"
+                class="px-6 py-4 font-medium text-black whitespace-nowrap text-center dark:text-white border-r dark:border-neutral-500">
+                sample batch 1
+            </th>
+            <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
+                sample degree 1
+            </td>
+            <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
+                sample semester 1
+            </td>
+            <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
+                sample link 1
+            </td>
+        </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th scope="row"
+                class="px-6 py-4 font-medium text-black whitespace-nowrap text-center dark:text-white border-r dark:border-neutral-500">
+                sample batch 2
+            </th>
+            <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
+                sample degree 2
+            </td>
+            <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
+                sample semester 2
+            </td>
+            <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
+                sample link 2
+            </td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 
 

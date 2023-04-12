@@ -27,7 +27,7 @@ public class timetable extends HttpServlet {
             Statement st = null;
 
             Class.forName("com.mysql.jdbc.Driver");
-            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/nisa_admin", "root", "");
+            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/nisa_nsbm", "root", "");
             st = con.createStatement();
 
             // insert the feedback message into the database
