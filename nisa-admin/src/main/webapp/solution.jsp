@@ -113,7 +113,7 @@
         ResultSet resultSet1 = null;
       %>
                     <select name="template"
-                            class="bg-green-500 border border-white-300 text-gray-900 text-m rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-green-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            class="bg-white border border-white-300 text-gray-900 text-m rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-green-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option value="0">Select Template</option>
                         <%
                             try {
@@ -157,6 +157,14 @@
                    class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
                    placeholder="" required>
         </div>
+
+        <div class="mb-6">
+            <label for="email" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Subject</label>
+            <input type="text" id="subject" value="${subject}" name="id"
+                   class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+                   placeholder="" required>
+        </div>
+
         <div class="mb-6">
 
             <label for="message" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Message</label>
