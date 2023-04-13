@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: sanid
-  Date: 06/04/2023
-  Time: 21:42
+  User: ACER
+  Date: 4/13/2023
+  Time: 8:28 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
-    <title>Allocate Hall</title>
+    <title>Add or Remove Batch</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 </head>
 
@@ -68,7 +68,7 @@
             <ul class="space-y-2 font-medium">
                 <li>
                     <a href="index.jsp"
-                       class="flex items-center p-2 text-gray-900  rounded-lg dark:text-white hover:bg-green-500 dark:hover:bg-gray-700">
+                       class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-green-500 dark:hover:bg-gray-700">
                         <span class="ml-3"><i class="fa fa-dashboard icons"></i>&nbsp;&nbsp;Dashboard</span>
                     </a>
                 </li>
@@ -106,7 +106,7 @@
                 </li>
                 <li>
                     <button type="button"
-                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg font-bold group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700"
+                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700"
                             aria-controls="dropdown-example" data-collapse-toggle="dropdown-example-2">
                             <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item> <i
                                     class="fa fa-building"></i>&nbsp;&nbsp;Hall Allocation</span>
@@ -156,7 +156,7 @@
                 </li>
                 <li>
                     <button type="button"
-                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700"
+                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg font-bold group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700"
                             aria-controls="dropdown-example" data-collapse-toggle="dropdown-example-4">
                             <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item> <i
                                     class="fa fa-cog"></i>&nbsp;&nbsp;Setting</span>
@@ -210,7 +210,7 @@
         <div class="box-border h-25 w-full p-4 border-4 ...">
             <div class="grid grid-cols-3 gap-4 mb-2">
                 <div class="flex items-center justify-self-start ">
-                    <h1 class="font-bold text-4xl uppercase">allocate hall</h1>
+                    <h1 class="font-bold text-4xl uppercase">Add or Remove Batch</h1>
                 </div>
                 <div class="flex items-center justify-center ">
 
@@ -225,31 +225,25 @@
 </div>
 
 <div class="p-4 sm:ml-64">
-    <p class="text-m font-bold my-2 text-green-500 text-center">${message}<p>
-
-    <form method="post" action="hall">
-        <div class="mb-6">
-            <label for="email" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Date</label>
-            <input type="date" id="date" name="date"
-                   class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
-                   placeholder="" required>
+    <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
+        <div class="grid grid-cols-3 gap-4 mb-4">
+            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+            </div>
+            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+            </div>
+            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+            </div>
         </div>
-        <div class="mb-6">
-
-            <label for="message" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Link</label>
-            <input type="text" id="message" rows="4" name="link"
-                   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-500"
-                   placeholder="">
-
+        <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
+            <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
         </div>
-        <div class="flex items-start mb-6">
-
-            <button type="submit"
-                    class="text-white font-bold uppercase bg-green-500 hover:bg-green-600  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ">
-                Add
-            </button>
+        <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
+            <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
         </div>
-    </form>
+    </div>
 </div>
 
 

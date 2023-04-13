@@ -170,23 +170,23 @@
             </button>
             <ul id="dropdown-example-4" class="hidden py-2 space-y-2">
               <li>
-                <a href="#"
+                <a href="password.jsp"
                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Change Password</a>
               </li>
               <li>
-                <a href="#"
+                <a href="mail.jsp"
                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Add
                   Mail Template</a>
               </li>
               <li>
-                <a href="#"
+                <a href="position.jsp"
                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Change
                   Positions</a>
               </li>
               <li>
-                <a href="#"
+                <a href="batch.jsp"
                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Add
-                  or remove Batch</a>
+                  or Remove Batch</a>
               </li>
             </ul>
           </li>
