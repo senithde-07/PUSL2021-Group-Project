@@ -206,7 +206,7 @@
         <div class="box-border h-25 w-full p-4 border-4 ...">
             <div class="grid grid-cols-3 gap-4 mb-2">
                 <div class="flex items-center justify-self-start ">
-                    <h1 class="font-bold text-4xl uppercase">View Problem</h1>
+                    <h1 class="font-bold text-4xl uppercase">solution</h1>
                 </div>
                 <div class="flex items-center justify-center ">
 

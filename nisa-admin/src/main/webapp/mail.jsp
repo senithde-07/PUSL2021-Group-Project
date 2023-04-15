@@ -225,25 +225,29 @@
 </div>
 
 <div class="p-4 sm:ml-64">
-  <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
-    <div class="grid grid-cols-3 gap-4 mb-4">
-      <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-        <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-      </div>
-      <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-        <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-      </div>
-      <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-        <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-      </div>
+  <form method="post" action="sendmail">
+    <div class="mb-6 mt-5">
+      <label for="text" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Template Name</label>
+      <input type="text" id="" value="" name="id"
+             class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+             placeholder="" required>
     </div>
-    <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-      <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+
+    <div class="mb-6">
+
+      <label for="message" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Message</label>
+      <textarea id="message" rows="4" name="message"
+                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-500"
+                required></textarea>
+
     </div>
-    <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-      <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-    </div>
-  </div>
+    <div class="flex items-start mb-6">
+
+      <button type="submit"
+              class="text-white font-bold uppercase bg-green-500 hover:bg-green-600  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ">
+        Add Template
+      </button>
+  </form>
 </div>
 
 
