@@ -450,7 +450,7 @@
                     </th>
                     <td class="px-6 py-4">
                         <input required type="text" id="message" rows="4" name="link"
-                               class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-500"
+                               class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-green-500"
                                placeholder="Link">
                     </td>
                 </tr>

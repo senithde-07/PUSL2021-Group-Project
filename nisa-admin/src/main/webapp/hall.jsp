@@ -231,14 +231,14 @@
         <div class="mb-6">
             <label for="email" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Date</label>
             <input type="date" id="date" name="date"
-                   class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+                   class="bg-gray-50 border border-green-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
                    placeholder="" required>
         </div>
         <div class="mb-6">
 
             <label for="message" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Link</label>
             <input type="text" id="message" rows="4" name="link"
-                   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-500"
+                   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-green-500"
                    placeholder="">
 
         </div>

@@ -229,21 +229,21 @@
     <div class="mb-6 mt-5">
       <label for="text" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Currunt Password</label>
       <input type="text" id="" value="" name="id"
-             class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+             class="bg-gray-50 border border-green-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
              placeholder="" required>
     </div>
 
     <div class="mb-6 mt-5">
       <label for="text" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">New Password</label>
       <input type="text" id="" value="" name="id"
-             class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+             class="bg-gray-50 border border-green-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
              placeholder="" required>
     </div>
 
     <div class="mb-6 mt-5">
       <label for="text" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Confirm Password</label>
       <input type="text" id="" value="" name="id"
-             class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+             class="bg-gray-50 border border-green-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
              placeholder="" required>
     </div>
     <div class="flex items-start mb-6">

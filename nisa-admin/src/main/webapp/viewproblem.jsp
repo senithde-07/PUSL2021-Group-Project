@@ -224,7 +224,7 @@
 
     <div class="grid grid-cols-2 gap-4 mb-4">
       <div class="justify-center mt-10 h-10 ">
-        <div class="pb-4 bg-white dark:bg-gray-900">
+        <div class="pb-4 bg-white dark:bg-gray-900 ">
           <label for="table-search" class="sr-only">Search</label>
           <div class="relative mt-1">
             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -236,7 +236,7 @@
               </svg>
             </div>
             <input type="text" id="table-search"
-                   class="block p-2 pl-10 text-sm text-gray-900 border-gray-300 rounded-lg w-80 bg-gray-50  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 "
+                   class="block p-2 pl-10 text-sm text-gray-900 border-green-500 rounded-lg w-80 bg-gray-50  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 "
                    placeholder="Search">
           </div>
         </div>

@@ -247,7 +247,7 @@
                     </th>
                     <td class="px-6 py-4">
                         <input type="text" id="" value="" name="id"
-                               class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+                               class="bg-gray-50 border border-green-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
                                placeholder="" required>
                     </td>
 
@@ -268,7 +268,7 @@
                     </th>
                     <td class="px-6 py-4">
                             <input type="date" id="date" name="date"
-                                   class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+                                   class="bg-gray-50 border border-green-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
                                    placeholder="" required>
                     </td>
                 </tr>

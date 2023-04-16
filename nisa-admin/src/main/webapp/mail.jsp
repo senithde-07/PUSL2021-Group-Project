@@ -229,7 +229,7 @@
     <div class="mb-6 mt-5">
       <label for="text" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Template Name</label>
       <input type="text" id="" value="" name="id"
-             class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+             class="bg-gray-50 border border-green-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
              placeholder="" required>
     </div>
 
@@ -237,7 +237,7 @@
 
       <label for="message" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Message</label>
       <textarea id="message" rows="4" name="message"
-                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-500"
+                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-green-500"
                 required></textarea>
 
     </div>
