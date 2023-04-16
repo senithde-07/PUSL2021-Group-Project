@@ -298,7 +298,7 @@
         <br><br>
 
 
-        <form method="post" action="sendmail">
+        <form method="post" action="">
             <div class="mb-6 mt-5">
                 <label for="email" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Student
                     ID</label>

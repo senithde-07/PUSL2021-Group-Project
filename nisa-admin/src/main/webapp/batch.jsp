@@ -225,25 +225,124 @@
 </div>
 
 <div class="p-4 sm:ml-64">
-    <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
-        <div class="grid grid-cols-3 gap-4 mb-4">
-            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-            </div>
-            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-            </div>
-            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-            </div>
+    <p class="text-m font-bold my-2 text-green-500 text-center"><p>
+
+
+    <form method="post" action="">
+        <div class="relative overflow-x-auto">
+            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <tbody>
+                <tr class="bg-white dark:bg-gray-800">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+
+                    </th>
+                    <td class="px-6 py-4">
+
+                    </td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th scope="row"
+                        class="px-6 py-4 font-medium text-black font-bold uppercase whitespace-nowrap dark:text-white">
+                        New Batch
+                    </th>
+                    <td class="px-6 py-4">
+                        <input type="text" id="" value="" name="id"
+                               class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+                               placeholder="" required>
+                    </td>
+
+                </tr>
+                <tr class="bg-white dark:bg-gray-800">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+
+                    </th>
+                    <td class="px-6 py-4">
+
+                    </td>
+                </tr>
+
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th scope="row"
+                        class="px-6 py-4 font-medium text-black font-bold uppercase whitespace-nowrap dark:text-white">
+                        Currunt Position
+                    </th>
+                    <td class="px-6 py-4">
+                            <input type="date" id="date" name="date"
+                                   class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+                                   placeholder="" required>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+
+
+            <button type="submit"
+                    class="text-white mt-8 font-bold uppercase bg-green-500 hover:bg-green-600  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ">
+                Add Batch
+            </button>
+
         </div>
-        <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-            <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-        </div>
-        <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-            <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-        </div>
-    </div>
+    </form>
+</div>
+
+
+
+<div class="p-4 mt-10 sm:ml-64">
+    <table class="table-auto item-center w-full text-sm text-left text-gray-500 dark:text-gray-400 border ">
+        <thead class="text-xs text-gray-700 uppercase bg-green-500 dark:bg-gray-700 dark:text-gray-400">
+        <tr>
+            <th scope="col"
+                class="px-6 py-3 text-white font-black border-r dark:border-neutral-500 text-center uppercase">
+                batch
+            </th>
+            <th scope="col"
+                class="px-6 py-3 text-white font-black border-r dark:border-neutral-500 text-center uppercase">
+                Added Date
+            </th>
+            <th scope="col"
+                class="px-6 py-3 text-white font-black border-r dark:border-neutral-500 text-center uppercase">
+                action
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th scope="row"
+                class="px-6 py-4 font-medium text-black whitespace-nowrap text-center dark:text-white border-r dark:border-neutral-500">
+                sample batch 1
+            </th>
+            <th scope="row"
+                class="px-6 py-4 font-medium text-black whitespace-nowrap text-center dark:text-white border-r dark:border-neutral-500">
+                sample date 1
+            </th>
+            <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
+                <button onclick=""
+                        data-modal-hide="popup-modal-2" type="button"
+                        class="text-white bg-red-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2">
+                    Delete Batch
+                </button>
+            </td>
+        </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th scope="row"
+                class="px-6 py-4 font-medium text-black whitespace-nowrap text-center dark:text-white border-r dark:border-neutral-500">
+                sample batch 2
+            </th>
+            <th scope="row"
+                class="px-6 py-4 font-medium text-black whitespace-nowrap text-center dark:text-white border-r dark:border-neutral-500">
+                sample date 2
+            </th>
+            <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
+                <button onclick=""
+                        data-modal-hide="popup-modal-2" type="button"
+                        class="text-white bg-red-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2">
+                    Delete Batch
+                </button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 
 

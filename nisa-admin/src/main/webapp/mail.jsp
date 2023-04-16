@@ -225,7 +225,7 @@
 </div>
 
 <div class="p-4 sm:ml-64">
-  <form method="post" action="sendmail">
+  <form method="post" action="">
     <div class="mb-6 mt-5">
       <label for="text" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Template Name</label>
       <input type="text" id="" value="" name="id"
