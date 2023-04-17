@@ -178,7 +178,7 @@
                         <li>
                             <a href="batch.jsp"
                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Add
-                                or Remove Batch</a>
+                                or remove Batch</a>
                         </li>
                     </ul>
                 </li>
@@ -218,23 +218,197 @@
 </div>
 
 <div class="p-4 sm:ml-64">
-    <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
+    <div class="p-4 dark:border-gray-700">
         <div class="grid grid-cols-3 gap-4 mb-4">
-            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+            <div class="mt-4 w-full lg:w-6/12 xl:w-3/12 px-5 mb-4">
+                <div class="relative flex flex-col min-w-0 break-words bg-white rounded mb-3 xl:mb-0 shadow-lg">
+                    <div class="flex-auto p-4">
+                        <div class="flex flex-wrap">
+                            <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
+                                <h5 class="text-black uppercase font-bold text-xs"> Total Usage</h5>
+                                <span class="font-semibold text-5xl text-blueGray-700">23</span>
+                            </div>
+                            <div class="relative w-auto pl-4 flex-initial">
+                                <div
+                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full  bg-green-500">
+                                    <i class="fa fa-pie-chart"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+            <div class="mt-4 w-full lg:w-6/12 xl:w-3/12 px-5 mb-4">
+                <div class="relative flex flex-col min-w-0 break-words bg-white rounded mb-3 xl:mb-0 shadow-lg">
+                    <div class="flex-auto p-4">
+                        <div class="flex flex-wrap">
+                            <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
+                                <h5 class="text-black uppercase font-bold text-xs">pending problems</h5>
+                                <span class="font-semibold text-5xl text-blueGray-700">4</span>
+                            </div>
+                            <div class="relative w-auto pl-4 flex-initial">
+                                <div
+                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full  bg-green-500">
+                                    <i class="fa fa-exclamation"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+            <div class="mt-4 w-full lg:w-6/12 xl:w-3/12 px-5 mb-4">
+                <div class="relative flex flex-col min-w-0 break-words bg-white rounded mb-3 xl:mb-0 shadow-lg">
+                    <div class="flex-auto p-4">
+                        <div class="flex flex-wrap">
+                            <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
+                                <h5 class="text-black uppercase font-bold text-xs">solved problem</h5>
+                                <span class="font-semibold text-5xl text-blueGray-700">20</span>
+                            </div>
+                            <div class="relative w-auto pl-4 flex-initial">
+                                <div
+                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full  bg-green-500">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-            <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+
+        <div class="grid  grid-cols-2 gap-4 mb-4">
+            <div class="w-full xl:w-4/12 px-4">
+                <div class="relative flex flex-col min-w-0 break-words w-full mb-8 shadow-lg rounded-lg bg-white">
+                    <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
+                        <div class="flex flex-wrap items-center">
+                            <div class="relative w-full max-w-full flex-grow flex-1">
+                                <h2 class="text-xl font-bold text-black uppercase">Daily Usage</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg rounded-lg overflow-hidden">
+                        <canvas class="p-10" id="chartLine"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-rows-2">
+                <div class="w-full xl:w-4/12 px-4">
+                    <div class="relative flex flex-col min-w-0 break-words w-full mb-8 shadow-lg rounded-lg bg-white text-blueGray-700">
+                        <div class="px-6 py-4 border-0">
+                            <div class="flex flex-wrap items-center">
+                                <div class="relative w-full max-w-full flex-grow flex-1">
+                                    <h3 class="font-bold text-lg text-black uppercase">Sample Heading 1</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block w-full overflow-x-auto">
+                            <table class="items-center w-full bg-transparent border-collapse">
+
+                                <tbody>
+                                <tr>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">1.</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align- border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">Sample sub text 1</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center text-black">1,480</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">2.</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">Sample sub text 2</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center text-black">5,480</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">3.</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">Sample sub text 3</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center text-black">4,807</div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full xl:w-4/12 px-4">
+                    <div class="relative flex flex-col min-w-0 break-words w-full mb-8 shadow-lg rounded-lg bg-white text-blueGray-700">
+                        <div class="px-6 py-4 border-0">
+                            <div class="flex flex-wrap items-center">
+                                <div class="relative w-full max-w-full flex-grow flex-1">
+                                    <h3 class="font-bold text-lg text-black uppercase">Sample Heading 2</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block w-full overflow-x-auto">
+                            <table class="items-center w-full bg-transparent border-collapse">
+
+                                <tbody>
+                                <tr>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">1.</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">Sample sub text 1</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center text-black">1,480</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">2.</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">Sample sub text 2</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center text-black">5,480</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">3.</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center"><span class="ml-3 font-bold text-black NaN">Sample sub text 3</span></div>
+                                    </td>
+                                    <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                                        <div class="flex items-center text-black">4,807</div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+
         </div>
-        <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-            <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+
+        <div class="grid grid-cols-2 gap-4 mb-4">
+
         </div>
     </div>
 </div>
@@ -247,7 +421,34 @@
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+<!-- Chart line -->
+<script>
+    const labels = ["January", "February", "March", "April", "May", "June"];
+    const data = {
+        labels: labels,
+        datasets: [
+            {
+                label: "Daily Usage",
+                backgroundColor: "green",
+                borderColor: "hsl(252, 82.9%, 67.8%)",
+                data: [0, 10, 5, 2, 20, 30, 45],
+            },
+        ],
+    };
+
+    const configLineChart = {
+        type: "bar",
+        data,
+        options: {},
+    };
+
+    var chartLine = new Chart(
+        document.getElementById("chartLine"),
+        configLineChart
+    );
+</script>
 
 
 
