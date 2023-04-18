@@ -243,11 +243,11 @@
       </div>
     </div>
     <%
-      String driverName = "com.mysql.jdbc.Driver";
-      String connectionUrl = "jdbc:mysql://localhost:3306/";
+      String driverName = "com.mysql.cj.jdbc.Driver";
+      String connectionUrl = "jdbc:mysql://aws.connect.psdb.cloud/nisa_nsbm?sslMode=VERIFY_IDENTITY";
       String dbName = "nisa_nsbm";
-      String userId = "root";
-      String password = "";
+      String userId = "qs4crtkibjprhmu4i9dj";
+      String password = "pscale_pw_f08qdZccW8WsjG2qvf2PpVR4LZu3Nj22jAPkhOlDmf9";
 
       try {
         Class.forName(driverName);
@@ -283,7 +283,7 @@
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
           <%
             try {
-              connection = DriverManager.getConnection(connectionUrl + dbName, userId, password);
+              connection = DriverManager.getConnection(connectionUrl, userId, password);
               statement = connection.createStatement();
               String sql = "SELECT * FROM problem WHERE status='nw'";
 

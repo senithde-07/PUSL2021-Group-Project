@@ -70,7 +70,7 @@ public class sendmail extends HttpServlet {
             }
 
 
-            String driverName = "com.mysql.jdbc.Driver";
+            String driverName = "com.mysql.cj.jdbc.Driver";
             String connectionUrl = "jdbc:mysql://localhost:3306/";
             String dbName = "nisa_nsbm";
             String userId = "root";

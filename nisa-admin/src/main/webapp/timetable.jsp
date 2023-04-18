@@ -242,7 +242,7 @@
                     </th>
                     <td class="px-6 py-4">
                         <%
-                            String driverName = "com.mysql.jdbc.Driver";
+                            String driverName = "com.mysql.cj.jdbc.Driver";
                             String connectionUrl = "jdbc:mysql://localhost:3306/";
                             String dbName = "nisa_nsbm";
                             String userId = "root";
@@ -264,7 +264,7 @@
                             <option value="0">Select Batch</option>
                             <%
                                 try {
-                                    connection = DriverManager.getConnection(connectionUrl + dbName, userId, password);
+                                    connection = DriverManager.getConnection(connectionUrl, userId, password);
                                     statement = connection.createStatement();
                                     String sql = "SELECT * FROM active_batches";
                                     resultSet = statement.executeQuery(sql);

@@ -25,8 +25,10 @@ public class hall extends HttpServlet {
             Connection con = null;
             Statement st = null;
 
-            Class.forName("com.mysql.jdbc.Driver");
-            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/nisa_nsbm", "root", "");
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            con = (Connection) DriverManager.getConnection("jdbc:mysql://aws.connect.psdb.cloud/nisa_nsbm?sslMode=VERIFY_IDENTITY",
+                    "qs4crtkibjprhmu4i9dj",
+                    "pscale_pw_f08qdZccW8WsjG2qvf2PpVR4LZu3Nj22jAPkhOlDmf9");
             st = con.createStatement();
 
             // insert the feedback message into the database
