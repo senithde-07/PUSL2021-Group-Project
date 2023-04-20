@@ -3,7 +3,7 @@
   User: ACER
   Date: 4/13/2023
   Time: 3:38 AM
-  To change this template use File | Settings | File Templates.
+  To change this template use File | Settingss | File Templates.
 --%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@page import="java.sql.ResultSet" %>
@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet"/>
     <title>View Timetable</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 </head>
@@ -120,11 +120,13 @@
                     <ul id="dropdown-example-2" class="hidden py-2 space-y-2">
                         <li>
                             <a href="hall.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocate Hall</a>
+                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocate
+                                Hall</a>
                         </li>
                         <li>
                             <a href="allocatedhall.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocated Halls</a>
+                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocated
+                                Halls</a>
                         </li>
                     </ul>
                 </li>
@@ -159,7 +161,7 @@
                             class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700"
                             aria-controls="dropdown-example" data-collapse-toggle="dropdown-example-4">
                             <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item> <i
-                                    class="fa fa-cog"></i>&nbsp;&nbsp;Setting</span>
+                                    class="fa fa-cog"></i>&nbsp;&nbsp;Settings</span>
                         <svg sidebar-toggle-item class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
                              xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -170,7 +172,8 @@
                     <ul id="dropdown-example-4" class="hidden py-2 space-y-2">
                         <li>
                             <a href="password.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Change Password</a>
+                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Change
+                                Password</a>
                         </li>
                         <li>
                             <a href="mail.jsp"
@@ -200,9 +203,7 @@
     </aside>
 
 
-
 </div>
-
 
 
 <div class="p-4 sm:ml-64">
@@ -216,14 +217,32 @@
 
                 </div>
                 <div class="flex items-center justify-end ">
-                    <img src="assets/img/profile.png" class="pro-img w-12" />
-                    <h2 class="uppercase">&nbsp;&nbsp;Admin</h2>
+                    <img src="assets/img/profile.png" class="pro-img w-12"/>
+                    <h2 class="uppercase">&nbsp;&nbsp;<%=(String) session.getAttribute("name")%>
+                    </h2>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<%
+    String driverName = "com.mysql.cj.jdbc.Driver";
+    String connectionUrl = "jdbc:mysql://aws.connect.psdb.cloud/nisa_nsbm?sslMode=VERIFY_IDENTITY";
+    String dbName = "nisa_nsbm";
+    String userId = "qs4crtkibjprhmu4i9dj";
+    String password = "pscale_pw_f08qdZccW8WsjG2qvf2PpVR4LZu3Nj22jAPkhOlDmf9";
 
+    try {
+        Class.forName(driverName);
+    } catch (ClassNotFoundException e) {
+        e.printStackTrace();
+    }
+
+    Connection connection = null;
+    Statement statement = null;
+    ResultSet resultSet = null;
+    ResultSet resultSet1 = null;
+%>
 <div class="p-4 sm:ml-64">
     <table class="table-auto w-full text-sm text-left text-gray-500 dark:text-gray-400 border ">
         <thead class="text-xs text-gray-700 uppercase bg-green-500 dark:bg-gray-700 dark:text-gray-400">
@@ -244,56 +263,42 @@
                 class="px-6 py-3 text-white font-black border-r dark:border-neutral-500 text-center uppercase">
                 link
             </th>
-
+            <%
+                try {
+                    connection = DriverManager.getConnection(connectionUrl, userId, password);
+                    statement = connection.createStatement();
+                    String sql = "SELECT * FROM time_table";
+                    resultSet = statement.executeQuery(sql);
+                    while (resultSet.next()) {
+            %>
         </tr>
         </thead>
         <tbody>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
             <th scope="row"
                 class="px-6 py-4 font-medium text-black whitespace-nowrap text-center dark:text-white border-r dark:border-neutral-500">
-                sample batch 1
+                <%=resultSet.getString("batch_number")%>
             </th>
             <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
-                sample degree 1
+                <%=resultSet.getString("degree_offerer")%>
             </td>
             <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
-                sample semester 1
+                <%=resultSet.getString("year_sem")%>
             </td>
             <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
-                sample link 1
+                <a href="<%=resultSet.getString("timetable_link")%>">Click Here</a>
             </td>
         </tr>
-        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-            <th scope="row"
-                class="px-6 py-4 font-medium text-black whitespace-nowrap text-center dark:text-white border-r dark:border-neutral-500">
-                sample batch 2
-            </th>
-            <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
-                sample degree 2
-            </td>
-            <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
-                sample semester 2
-            </td>
-            <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
-                sample link 2
-            </td>
-        </tr>
+        <%
+                }
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        %>
         </tbody>
     </table>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

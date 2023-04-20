@@ -3,7 +3,7 @@
   User: sanid
   Date: 06/04/2023
   Time: 21:41
-  To change this template use File | Settings | File Templates.
+  To change this template use File | Settingss | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page import="java.sql.ResultSet" %>
@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet"/>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 </head>
 
@@ -118,11 +118,13 @@
                     <ul id="dropdown-example-2" class="hidden py-2 space-y-2">
                         <li>
                             <a href="hall.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocate Hall</a>
+                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocate
+                                Hall</a>
                         </li>
                         <li>
                             <a href="allocatedhall.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocated Halls</a>
+                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocated
+                                Halls</a>
                         </li>
                     </ul>
                 </li>
@@ -157,7 +159,7 @@
                             class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700"
                             aria-controls="dropdown-example" data-collapse-toggle="dropdown-example-4">
                             <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item> <i
-                                    class="fa fa-cog"></i>&nbsp;&nbsp;Setting</span>
+                                    class="fa fa-cog"></i>&nbsp;&nbsp;Settings</span>
                         <svg sidebar-toggle-item class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
                              xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -168,7 +170,8 @@
                     <ul id="dropdown-example-4" class="hidden py-2 space-y-2">
                         <li>
                             <a href="password.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Change Password</a>
+                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Change
+                                Password</a>
                         </li>
                         <li>
                             <a href="mail.jsp"
@@ -212,8 +215,9 @@
 
                 </div>
                 <div class="flex items-center justify-end ">
-                    <img src="assets/img/profile.png" class="pro-img w-12" />
-                    <h2 class="uppercase">&nbsp;&nbsp;Admin</h2>
+                    <img src="assets/img/profile.png" class="pro-img w-12"/>
+                    <h2 class="uppercase">&nbsp;&nbsp;<%=(String) session.getAttribute("name")%>
+                    </h2>
                 </div>
             </div>
         </div>
@@ -223,24 +227,24 @@
         <p class="text-m font-bold my-2 text-green-500 text-center">${message}<p>
 
         <div class=" justify-center h-48 mb-4 ">
-        <table>
-            <tbody>
-            <tr class="bg-white dark:bg-gray-800">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+            <table>
+                <tbody>
+                <tr class="bg-white dark:bg-gray-800">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
 
-                </th>
-                <td class="px-6 py-4">
+                    </th>
+                    <td class="px-6 py-4">
 
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800">
-                <th scope="row"
-                    class="px-6 py-4 font-medium text-black font-bold uppercase whitespace-nowrap dark:text-white">
-                    Message Template
-                </th>
-                <td class="px-6 py-4">
-                    <form method="post" action="loadtemp">
-                            <%
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800">
+                    <th scope="row"
+                        class="px-6 py-4 font-medium text-black font-bold uppercase whitespace-nowrap dark:text-white">
+                        Message Template
+                    </th>
+                    <td class="px-6 py-4">
+                        <form method="post" action="loadtemp">
+                                <%
        String driverName = "com.mysql.cj.jdbc.Driver";
         String connectionUrl = "jdbc:mysql://aws.connect.psdb.cloud/nisa_nsbm?sslMode=VERIFY_IDENTITY";
         String dbName = "nisa_nsbm";
@@ -258,86 +262,84 @@
         ResultSet resultSet = null;
         ResultSet resultSet1 = null;
       %>
-                        <select name="template"
-                                class="bg-white border border-green-500 text-gray-900 text-m rounded-lg focus:ring-green-600 focus:border-green-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-green-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                            <option value="0">Select Template</option>
-                            <%
-                                try {
-                                    connection = DriverManager.getConnection(connectionUrl, userId, password);
-                                    statement = connection.createStatement();
-                                    String sql = "SELECT * FROM template_message";
-                                    resultSet = statement.executeQuery(sql);
-                                    while (resultSet.next()) {
-                            %>
+                            <select name="template"
+                                    class="bg-white border border-green-500 text-gray-900 text-m rounded-lg focus:ring-green-600 focus:border-green-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-green-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <option value="0">Select Template</option>
+                                <%
+                                    try {
+                                        connection = DriverManager.getConnection(connectionUrl, userId, password);
+                                        statement = connection.createStatement();
+                                        String sql = "SELECT * FROM template_message";
+                                        resultSet = statement.executeQuery(sql);
+                                        while (resultSet.next()) {
+                                %>
 
-                            <option value="<%=resultSet.getString("template_name")%>"><%=resultSet.getString("template_name")%>
-                            </option>
+                                <option value="<%=resultSet.getString("template_name")%>"><%=resultSet.getString("template_name")%>
+                                </option>
 
-                            <%
+                                <%
+                                        }
+
+                                    } catch (Exception e) {
+                                        e.printStackTrace();
                                     }
+                                %>
+                            </select>
+                    </td>
+                </tr>
+                <tr>
 
-                                } catch (Exception e) {
-                                    e.printStackTrace();
-                                }
-                            %>
-                        </select>
-                </td>
-            </tr>
-            <tr>
-
-            </tr>
+                </tr>
 
 
-            </tbody>
-        </table>
-        <button type="submit"
-                class="text-white mt-5 font-bold uppercase bg-green-500 hover:bg-green-600  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ">
-            Select Template
-        </button>
-        </form>
-        <br><br>
+                </tbody>
+            </table>
+            <button type="submit"
+                    class="text-white mt-5 font-bold uppercase bg-green-500 hover:bg-green-600  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ">
+                Select Template
+            </button>
+            </form>
+            <br><br>
 
 
-        <form method="post" action="">
-            <div class="mb-6 mt-5">
-                <label for="email" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Student
-                    ID</label>
-                <input type="text" id="student id" value="${student_id}" name="id"
-                       class="bg-gray-50 border border-green-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
-                       placeholder="" required>
-            </div>
+            <form method="post" action="">
+                <div class="mb-6 mt-5">
+                    <label for="email"
+                           class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Student
+                        ID</label>
+                    <input type="text" id="student id" value="${student_id}" name="id"
+                           class="bg-gray-50 border border-green-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+                           placeholder="" required>
+                </div>
 
-            <div class="mb-6">
-                <label for="email" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Subject</label>
-                <input type="text" id="subject" value="${subject}" name="id"
-                       class="bg-gray-50 border border-green-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
-                       placeholder="" required>
-            </div>
+                <div class="mb-6">
+                    <label for="email"
+                           class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Subject</label>
+                    <input type="text" id="subject" value="${subject}" name="id"
+                           class="bg-gray-50 border border-green-500 text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+                           placeholder="" required>
+                </div>
 
-            <div class="mb-6">
+                <div class="mb-6">
 
-                <label for="message" class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Message</label>
-                <textarea id="message" rows="4" name="message"
-                          class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-green-500"
-                          required>${mail}</textarea>
+                    <label for="message"
+                           class="block mb-2 text-sm font-medium text-black font-bold uppercase dark:text-white">Message</label>
+                    <textarea id="message" rows="4" name="message"
+                              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-green-500"
+                              required>${mail}</textarea>
 
-            </div>
-            <div class="flex items-start mb-6">
+                </div>
+                <div class="flex items-start mb-6">
 
-                <button type="submit"
-                        class="text-white font-bold uppercase bg-green-500 hover:bg-green-600  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ">
-                    Send Mail
-                </button>
-        </form>
+                    <button type="submit"
+                            class="text-white font-bold uppercase bg-green-500 hover:bg-green-600  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ">
+                        Send Mail
+                    </button>
+            </form>
         </div>
 
     </div>
 </div>
-
-
-
-
-
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

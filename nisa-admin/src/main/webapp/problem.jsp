@@ -3,7 +3,7 @@
   User: sanid
   Date: 06/04/2023
   Time: 21:40
-  To change this template use File | Settings | File Templates.
+  To change this template use File | Settingss | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page import="java.sql.ResultSet" %>
@@ -47,7 +47,7 @@
 <div id="mySidenav" class="sidenav">
     <img src="assets/img/NSBM Logo.png" class="w-40 mb-10 mx-auto">
     <a href="index.jsp" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
-    <a href="problem.jsp" class="icon-a font-bold"><i class="fa fa-question"></i> &nbsp;&nbsp;View Problem</a>
+    <a href="viewproblem.jsp" class="icon-a font-bold"><i class="fa fa-question"></i> &nbsp;&nbsp;View Problem</a>
     <a href="solution.jsp" class="icon-a"><i class="fa fa-tasks"></i> &nbsp;&nbsp;Solution</a>
     <a href="hall.jsp" class="icon-a"><i class="fa fa-building"></i> &nbsp;&nbsp;Hall Allocation</a>
     <a href="timetable.jsp" class="icon-a"><i class="fa fa-calendar"></i> &nbsp;&nbsp;Add Timetable</a>
@@ -67,7 +67,7 @@
             <div class="profile">
 
                 <img src="assets/img/NSBM Logo.png" class="pro-img"/>
-                <p>Admin<span>NSBM</span></p>
+                <p><%=(String) session.getAttribute("name")%><span>NSBM</span></p>
             </div>
         </div>
         <div class="clearfix"></div>

@@ -3,7 +3,7 @@
   User: sanid
   Date: 06/04/2023
   Time: 21:42
-  To change this template use File | Settings | File Templates.
+  To change this template use File | Settingss | File Templates.
 --%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@page import="java.sql.ResultSet" %>
@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet"/>
     <title>Allocate Hall</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 </head>
@@ -120,11 +120,13 @@
                     <ul id="dropdown-example-2" class="hidden py-2 space-y-2">
                         <li>
                             <a href="hall.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocate Hall</a>
+                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocate
+                                Hall</a>
                         </li>
                         <li>
                             <a href="allocatedhall.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocated Halls</a>
+                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Allocated
+                                Halls</a>
                         </li>
                     </ul>
                 </li>
@@ -159,7 +161,7 @@
                             class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700"
                             aria-controls="dropdown-example" data-collapse-toggle="dropdown-example-4">
                             <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item> <i
-                                    class="fa fa-cog"></i>&nbsp;&nbsp;Setting</span>
+                                    class="fa fa-cog"></i>&nbsp;&nbsp;Settings</span>
                         <svg sidebar-toggle-item class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
                              xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -170,7 +172,8 @@
                     <ul id="dropdown-example-4" class="hidden py-2 space-y-2">
                         <li>
                             <a href="password.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Change Password</a>
+                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Change
+                                Password</a>
                         </li>
                         <li>
                             <a href="mail.jsp"
@@ -200,9 +203,7 @@
     </aside>
 
 
-
 </div>
-
 
 
 <div class="p-4 sm:ml-64">
@@ -216,8 +217,9 @@
 
                 </div>
                 <div class="flex items-center justify-end ">
-                    <img src="assets/img/profile.png" class="pro-img w-12" />
-                    <h2 class="uppercase">&nbsp;&nbsp;Admin</h2>
+                    <img src="assets/img/profile.png" class="pro-img w-12"/>
+                    <h2 class="uppercase">&nbsp;&nbsp;<%=(String) session.getAttribute("name")%>
+                    </h2>
                 </div>
             </div>
         </div>
@@ -251,19 +253,6 @@
         </div>
     </form>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

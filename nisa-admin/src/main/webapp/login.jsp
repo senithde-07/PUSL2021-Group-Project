@@ -3,7 +3,7 @@
   User: sanid
   Date: 06/04/2023
   Time: 21:36
-  To change this template use File | Settings | File Templates.
+  To change this template use File | Settingss | File Templates.
 --%>
 <!DOCTYPE html>
 <html lang="en">

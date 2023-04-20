@@ -30,7 +30,7 @@ public class probsolved extends HttpServlet {
             PreparedStatement ps1 = con.prepareStatement("UPDATE problem SET status = 'ok' WHERE student_id=?;");
             ps1.setString(1, student_id);
             ps1.executeUpdate();
-            response.sendRedirect("problem.jsp");
+            response.sendRedirect("viewproblem.jsp");
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
         }

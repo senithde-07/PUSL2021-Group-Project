@@ -54,7 +54,7 @@ public class login extends HttpServlet {
                     "pscale_pw_f08qdZccW8WsjG2qvf2PpVR4LZu3Nj22jAPkhOlDmf9");
             st = con.createStatement();
 
-            PreparedStatement ps = con.prepareStatement("SELECT email FROM admin_account WHERE email=? AND password=?");
+            PreparedStatement ps = con.prepareStatement("SELECT * FROM admin_account WHERE email=? AND password=?");
             ps.setString(1, email);
             ps.setString(2, HashedPassword);
 
@@ -62,9 +62,11 @@ public class login extends HttpServlet {
 
             if (rs.next()) {
 
+                String name= rs.getString("name");
+                request.getSession().setAttribute("name", name);
                 empsession.setAttribute("email", email);
                 response.sendRedirect("index.jsp");
-                empsession.setAttribute("email", email);
+
             } else {
                 String message = "Invalid email or password!";
                 request.setAttribute("message", message);
