@@ -32,18 +32,33 @@ public class timetable extends HttpServlet {
                     "pscale_pw_f08qdZccW8WsjG2qvf2PpVR4LZu3Nj22jAPkhOlDmf9");
             st = con.createStatement();
 
-            // insert the feedback message into the database
-            PreparedStatement ps1 = con.prepareStatement("INSERT INTO time_table(batch_number,degree_offerer,timetable_link,year_sem) VALUES(?,?,?,?)");
-            ps1.setString(1, batch);
-            ps1.setString(2, degree_offerer);
-            ps1.setString(3, link);
-            ps1.setString(4, sem);
-            ps1.executeUpdate();
+            PreparedStatement ps = con.prepareStatement("SELECT * FROM time_table WHERE batch_number=? AND degree_offerer=? AND year_sem=?");
+            ps.setString(1, batch);
+            ps.setString(2, degree_offerer);
+            ps.setString(3, sem);
 
-            String sucessmsg = "Data was entered successfully!!";
-            request.setAttribute("message", sucessmsg);
-            request.getRequestDispatcher("timetable.jsp").forward(request, response);
+            ResultSet rs = ps.executeQuery();
 
+            if (rs.next()) {
+
+                String errmsg = "Record already exists!";
+                request.setAttribute("errmessage", errmsg);
+                request.getRequestDispatcher("timetable.jsp").forward(request, response);
+            } else {
+
+                // insert the feedback message into the database
+                PreparedStatement ps1 = con.prepareStatement("INSERT INTO time_table(batch_number,degree_offerer,timetable_link,year_sem) VALUES(?,?,?,?)");
+                ps1.setString(1, batch);
+                ps1.setString(2, degree_offerer);
+                ps1.setString(3, link);
+                ps1.setString(4, sem);
+                ps1.executeUpdate();
+
+                String sucessmsg = "Data was entered successfully!!";
+                request.setAttribute("message", sucessmsg);
+                request.getRequestDispatcher("timetable.jsp").forward(request, response);
+
+            }
 
         } catch (ClassNotFoundException | SQLException e) {
 

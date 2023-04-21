@@ -31,15 +31,29 @@ public class hall extends HttpServlet {
                     "pscale_pw_f08qdZccW8WsjG2qvf2PpVR4LZu3Nj22jAPkhOlDmf9");
             st = con.createStatement();
 
-            // insert the feedback message into the database
-            PreparedStatement ps1 = con.prepareStatement("INSERT INTO daily_hall_allocation VALUES(?,?)");
-            ps1.setString(1, date);
-            ps1.setString(2, link);
-            ps1.executeUpdate();
+            PreparedStatement ps = con.prepareStatement("SELECT * FROM daily_hall_allocation WHERE day=? ");
+            ps.setString(1, date);
 
-            String sucessmsg = "Data was entered successfully!!";
-            request.setAttribute("message", sucessmsg);
-            request.getRequestDispatcher("hall.jsp").forward(request, response);
+            ResultSet rs = ps.executeQuery();
+
+            if (rs.next()) {
+                String ermsg = "Record already exists!";
+                request.setAttribute("errmessage", ermsg);
+                request.getRequestDispatcher("hall.jsp").forward(request, response);
+
+
+            } else {
+                // insert the feedback message into the database
+                PreparedStatement ps1 = con.prepareStatement("INSERT INTO daily_hall_allocation VALUES(?,?)");
+                ps1.setString(1, date);
+                ps1.setString(2, link);
+                ps1.executeUpdate();
+
+                String sucessmsg = "Data was entered successfully!!";
+                request.setAttribute("message", sucessmsg);
+                request.getRequestDispatcher("hall.jsp").forward(request, response);
+
+            }
 
 
         } catch (ClassNotFoundException | SQLException e) {

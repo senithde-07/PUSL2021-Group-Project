@@ -404,9 +404,11 @@
 
                                         resultSet3 = statement.executeQuery(sql3);
                                         while (resultSet3.next()) {
-                                            int num=1;
+
+
                                             String intentname=resultSet3.getString(1);
                                             String count=resultSet3.getString(2);
+
 
 
 
@@ -425,7 +427,7 @@
                                         <div class="flex items-center text-black"><%=count%></div>
                                     </td>
                                 </tr>
-                                <% num++;
+                                <%
                                         }
                                 } catch (Exception e) {
                                     e.printStackTrace();

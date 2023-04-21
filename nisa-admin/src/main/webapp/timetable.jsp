@@ -225,6 +225,7 @@
 
 <div class="p-4 sm:ml-64">
     <p class="text-m font-bold my-2 text-green-500 text-center">${message}<p>
+    <p class="text-m font-bold my-2 text-red-500 text-center">${errmessage}<p>
 
 
     <form method="post" action="timetable">
