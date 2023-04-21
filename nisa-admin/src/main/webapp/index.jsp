@@ -51,6 +51,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet"/>
     <title>Dashboard</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <style>
+
+    </style>
 </head>
 
 
@@ -215,7 +219,6 @@
 
 
 </div>
-
 
 <div class="p-4 sm:ml-64">
     <div class="">

@@ -30,14 +30,16 @@ public class loadtemp extends HttpServlet {
                     "pscale_pw_f08qdZccW8WsjG2qvf2PpVR4LZu3Nj22jAPkhOlDmf9");
             st = con.createStatement();
 
-            PreparedStatement ps = con.prepareStatement("SELECT message FROM template_message WHERE template_name=? ");
+            PreparedStatement ps = con.prepareStatement("SELECT * FROM template_message WHERE template_name=? ");
             ps.setString(1, template);
 
             ResultSet rs = ps.executeQuery();
 
             if (rs.next()) {
                 String emailmsg = rs.getString("message");
+                String subject=rs.getString("template_name");
                 request.setAttribute("mail", emailmsg);
+                request.setAttribute("subject", subject);
                 request.getRequestDispatcher("solution.jsp").forward(request, response);
 
 

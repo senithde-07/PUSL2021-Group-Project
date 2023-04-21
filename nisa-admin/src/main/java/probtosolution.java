@@ -33,11 +33,13 @@ public class probtosolution extends HttpServlet {
             ps1.setString(1, student_id);
             ps1.executeUpdate();
 
-            PreparedStatement ps = con.prepareStatement("SELECT template_message.message FROM template_message INNER JOIN problem WHERE template_message.template_name=problem.problem AND problem.student_id=?");
+            PreparedStatement ps = con.prepareStatement("SELECT template_message.message,template_message.template_name FROM template_message INNER JOIN problem WHERE template_message.template_name=problem.problem AND problem.student_id=?");
             ps.setString(1, student_id);
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                 String emailmsg = rs.getString(1);
+                String subject = rs.getString(2);
+                request.setAttribute("subject", subject);
                 request.setAttribute("mail", emailmsg);
                 request.setAttribute("student_id", student_id);
                 request.getRequestDispatcher("solution.jsp").forward(request, response);

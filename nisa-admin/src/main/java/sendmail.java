@@ -70,19 +70,17 @@ public class sendmail extends HttpServlet {
             }
 
 
-            String driverName = "com.mysql.cj.jdbc.Driver";
-            String connectionUrl = "jdbc:mysql://localhost:3306/";
-            String dbName = "nisa_nsbm";
-            String userId = "root";
-            String dbpassword = "";
-
             Connection con = null;
             Statement statement = null;
+
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            con = (Connection) DriverManager.getConnection("jdbc:mysql://aws.connect.psdb.cloud/nisa_nsbm?sslMode=VERIFY_IDENTITY",
+                    "qs4crtkibjprhmu4i9dj",
+                    "pscale_pw_f08qdZccW8WsjG2qvf2PpVR4LZu3Nj22jAPkhOlDmf9");
+            statement = con.createStatement();
+
             ResultSet resultSet = null;
             ResultSet resultSet1 = null;
-
-            con = DriverManager.getConnection(connectionUrl + dbName, userId, dbpassword);
-            statement = con.createStatement();
             PreparedStatement ps = con.prepareStatement("SELECT * FROM template_message WHERE message=?");
             ps.setString(1, msg);
             ResultSet rs = ps.executeQuery();
@@ -151,7 +149,7 @@ public class sendmail extends HttpServlet {
                     request.getRequestDispatcher("solution.jsp").forward(request, response);
                 }
             }
-        } catch (MessagingException | SQLException e) {
+        } catch (MessagingException | SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
 
