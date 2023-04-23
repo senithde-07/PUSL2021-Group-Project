@@ -277,6 +277,7 @@
         df-cx="true"
         intent="welcome"
         chat-title="nisa"
+        chat-icon="https://imgur.com/uMRfP0h"
         agent-id="8fb3e38c-a89e-4a27-85a1-d3e5a6db3109"
         language-code="en"
 ></df-messenger>
