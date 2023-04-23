@@ -42,11 +42,11 @@
             <img src="assets/img/NSBM Logo.png" class="h-12 mr-3 sm:h-9" alt="" />
         </a>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="facultyweb.jsp" class="mr-10 hover:text-gray-900">Home</a>
-            <a href="#" class="mr-10 hover:text-gray-900">Depatments</a>
-            <a href="#" class="mr-10 hover:text-gray-900">Academic Staff</a>
-            <a href="#" class="mr-10 hover:text-gray-900">Research & Publications</a>
-            <a href="#" class="mr-10 hover:text-gray-900">News & Media</a>
+            <a href="facultyweb.jsp" class="mr-10 hover:text-gray-900 font-bold uppercase">Home</a>
+            <a href="#" class="mr-10 hover:text-gray-900 uppercase">Depatments</a>
+            <a href="#" class="mr-10 hover:text-gray-900 uppercase">Academic Staff</a>
+            <a href="#" class="mr-10 hover:text-gray-900 uppercase">Research & Publications</a>
+            <a href="#" class="mr-10 hover:text-gray-900 uppercase">News & Media</a>
             <a href="#" class="flex items-center">
                 <img src="assets/img/NLearn.png" class="h-3  sm:h-5 mx-5" alt="" />
 
@@ -198,7 +198,7 @@
         <div
                 class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class="title-font sm:text-4xl text-5xl mb-4 font-bold text-green-500">DEAN’S MESSAGE</h1>
-            <p class="mb-8 leading-relaxed">
+            <p class="mb-8 leading-relaxed text-justify">
                 Welcome to the School of Computing of the National School of Business Management (NSBM). NSBM is a dynamic
                 young organization offering innovative educational products to cater to the needs of the fast-developing
                 business and industrial economies in the world. Your course of study will be up to date and relevant and will
