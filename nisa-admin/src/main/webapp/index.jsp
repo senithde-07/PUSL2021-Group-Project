@@ -405,10 +405,7 @@
                                         resultSet3 = statement.executeQuery(sql3);
                                         while (resultSet3.next()) {
                                             String count=resultSet3.getString(2);
-
                                             String intentname=resultSet3.getString(1);
-
-
 
 
 
