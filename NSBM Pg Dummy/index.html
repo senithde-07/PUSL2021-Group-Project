@@ -324,13 +324,46 @@
 
 
 
-        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
-        <df-messenger  df-cx="true" location="asia-south1" chat-title="NISA"
-            agent-id="345826aa-8f70-4a58-b88d-e9c40540ba06" language-code="en"></df-messenger>
+        <!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+            <df-messenger
+            df-cx="true"
+            location="asia-south1"
+            intent="welcome"
+            chat-title=""
+            agent-id="345826aa-8f70-4a58-b88d-e9c40540ba06"
+            language-code="en"
+            ></df-messenger> -->
+
+            <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+                <df-messenger
+                df-cx="true"
+                intent="welcome"
+                chat-title="nisa"
+                agent-id="8fb3e38c-a89e-4a27-85a1-d3e5a6db3109"
+                language-code="en"
+                ></df-messenger>
+
+        <!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+        <df-messenger
+            df-cx="true"
+            chat-title="nisa"
+            intent="welcome"
+            agent-id="8fb3e38c-a89e-4a27-85a1-d3e5a6db3109"
+            language-code="en">
+        </df-messenger> -->
 
     </div>
 
-
+    <style>
+        df-messenger {
+         --df-messenger-bot-message: #878fac;
+         --df-messenger-button-titlebar-color: #25c638;
+         --df-messenger-chat-background-color: #fafafa;
+         --df-messenger-font-color: white;
+         --df-messenger-send-icon: #878fac;
+         --df-messenger-user-message: #479b3d;
+        }
+      </style>
 
 
 

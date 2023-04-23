@@ -180,16 +180,7 @@
                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Add
                                 Mail Template</a>
                         </li>
-                        <li>
-                            <a href="position.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Change
-                                Positions</a>
-                        </li>
-                        <li>
-                            <a href="batch.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Add
-                                or Remove Batch</a>
-                        </li>
+
                     </ul>
                 </li>
                 <li>

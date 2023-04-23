@@ -195,16 +195,16 @@
                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Add
                                 Mail Template</a>
                         </li>
-                        <li>
-                            <a href="position.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Change
-                                Positions</a>
-                        </li>
-                        <li>
-                            <a href="batch.jsp"
-                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Add
-                                or remove Batch</a>
-                        </li>
+<%--                        <li>--%>
+<%--                            <a href="position.jsp"--%>
+<%--                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Change--%>
+<%--                                Positions</a>--%>
+<%--                        </li>--%>
+<%--                        <li>--%>
+<%--                            <a href="batch.jsp"--%>
+<%--                               class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-green-500 dark:text-white dark:hover:bg-gray-700">Add--%>
+<%--                                or remove Batch</a>--%>
+<%--                        </li>--%>
                     </ul>
                 </li>
                 <li>
@@ -400,14 +400,14 @@
 
                                         connection = DriverManager.getConnection(connectionUrl, userId, password);
                                         statement = connection.createStatement();
-                                        String sql3 = "SELECT intent_name, COUNT(intent_name) as count FROM user_questions GROUP BY intent_name ORDER BY count DESC LIMIT 3;";
+                                        String sql3 = "SELECT intent_name, COUNT(intent_name) as count FROM user_questions WHERE intent_name NOT LIKE \"prob%\" GROUP BY intent_name ORDER BY count DESC LIMIT 3";
 
                                         resultSet3 = statement.executeQuery(sql3);
                                         while (resultSet3.next()) {
-
+                                            String count=resultSet3.getString(2);
 
                                             String intentname=resultSet3.getString(1);
-                                            String count=resultSet3.getString(2);
+
 
 
 
@@ -460,7 +460,7 @@
 
                                         connection = DriverManager.getConnection(connectionUrl, userId, password);
                                         statement = connection.createStatement();
-                                        String sql3 = "SELECT intent_name, COUNT(intent_name) as count FROM user_questions WHERE intent_name LIKE \"prob.%\" GROUP BY intent_name ORDER BY count DESC LIMIT 3;";
+                                        String sql3 = "SELECT problem, COUNT(problem) as count FROM problem GROUP BY problem ORDER BY count DESC LIMIT 3;";
 
                                         resultSet5 = statement.executeQuery(sql3);
                                         while (resultSet5.next()) {
