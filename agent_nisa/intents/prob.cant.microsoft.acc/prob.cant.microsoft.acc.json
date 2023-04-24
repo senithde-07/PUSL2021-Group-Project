@@ -1,0 +1,13 @@
+{
+  "name": "23a0be68-669c-4bb4-ae60-45e27b08424b",
+  "displayName": "prob.cant.microsoft.acc",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "Triggers when user cant log into Microsoft acc"
+}

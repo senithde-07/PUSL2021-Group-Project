@@ -1,0 +1,23 @@
+{
+  "name": "934173c7-69c1-4af9-9296-3023c8723a7c",
+  "displayName": "DVC nsbm",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The Deputy Vice Chancellor of NSBM is Prof. Chaminda Rathnayake." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "f9d1e09d-435e-45b2-a714-1b262c1b3924"
+  } ]
+}

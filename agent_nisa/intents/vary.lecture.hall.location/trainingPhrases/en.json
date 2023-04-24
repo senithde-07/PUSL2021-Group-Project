@@ -1,0 +1,14 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Where is 009 ",
+      "auto": true
+    }, {
+      "text": "hall",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

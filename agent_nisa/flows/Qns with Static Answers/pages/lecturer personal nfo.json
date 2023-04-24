@@ -1,0 +1,23 @@
+{
+  "name": "a67fc58d-1e49-49a9-ae60-dafff1de2633",
+  "displayName": "lecturer personal nfo",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I am programmed to protect the privacy and personal information of individuals. Therefore, I am not able to provide personal information about a lecturer or any individual without their consent. It is important to respect people's privacy and confidentiality." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "c0718495-9271-478b-a800-d21a0530c9f3"
+  } ]
+}

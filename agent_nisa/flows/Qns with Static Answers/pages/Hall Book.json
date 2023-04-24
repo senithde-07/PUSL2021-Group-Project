@@ -1,0 +1,23 @@
+{
+  "name": "5e740267-328f-46f8-9bfe-40c874026615",
+  "displayName": "Hall Book",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Meet Assistant Registrar in 1st Floor to obtain Hall book form and other necessary information regarding reserving a hall" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "ae484645-b440-40cc-990e-8f2b51d63385"
+  } ]
+}

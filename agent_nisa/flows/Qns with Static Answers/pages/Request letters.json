@@ -1,0 +1,23 @@
+{
+  "name": "aaa9ee3a-3f40-4ea2-b50b-2f277efd6bc4",
+  "displayName": "Request letters",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "You can visits secretary of dean in 1st floor to request any kind of academic letters" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "cb08eb35-4273-44ec-a013-8eb1ffee1e72"
+  } ]
+}

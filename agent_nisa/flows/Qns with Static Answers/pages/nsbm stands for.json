@@ -1,0 +1,23 @@
+{
+  "name": "bed922eb-0b4a-4196-b80d-725c1b5f76ce",
+  "displayName": "nsbm stands for",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "National School of Business Management" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "9c1ffbc1-6e0b-44ea-9ada-7a15b00d095f"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "124561d3-c8fd-4583-81de-50a438e297fd",
+  "displayName": "prob.forgot-pw.microsoft",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "When users forgot microsoft acc password"
+}

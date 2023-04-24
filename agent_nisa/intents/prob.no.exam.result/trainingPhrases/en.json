@@ -1,0 +1,201 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "no",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "exam results",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "other got",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "exam results but i didnt. my",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "student",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " id is ",
+      "auto": true
+    }, {
+      "text": "21784",
+      "parameterId": "student-id",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My "
+    }, {
+      "text": "student"
+    }, {
+      "text": " id is "
+    }, {
+      "text": "21467",
+      "parameterId": "student-id",
+      "auto": true
+    }, {
+      "text": " and "
+    }, {
+      "text": "i still didnt recieve my exam results",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Friendsgot exam results but I didn't.",
+      "parameterId": "technical-problems"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Friends receive results but I didn't",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Still didn't receive exam results",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I didn’t get my results what can I do",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Exam results are missing",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Missing my exam results",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Exam results not received",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I didn’t get the exam results still",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The exam results are missing",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The exam results are still pending",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The exam results have not been disclosed",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The exam results have not been issued",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The exam results have not been delivered",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The exam results have not arrived yet",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "We have not received the exam results yet",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The exam results are yet to be received",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Exam results have not been received",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

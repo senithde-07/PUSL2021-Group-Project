@@ -1,0 +1,149 @@
+{
+  "name": "09470d35-409d-48be-a854-8594f418015f",
+  "displayName": "Lecturer Mail",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "conditionalCases": [ {
+      "cases": [ {
+        "condition": "$session.params.lecturer-names = \"pramudya\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Mr. Pramudya Thilakarathne, you can send an email to pramudya.h@nsbm.ac.lk." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"nethmi\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Ms. Nethmi Weerasingha, you can send an email to nethmi.w@nsbm.ac.lk." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"chamindra\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Mr. Chamindra Attanayake, you can send an email to chamindra.a@nsbm.ac.lk." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"chamara\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Mr. Chamara Disanayake, you can send an email to chamara.d@nsbm.ac.lk" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"Dilhara\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Mr. Dilhara Batan Arachchige, you can send an email to shashie.d@nsbm.ac.lk." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"Isuru\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Mr. Isuru Sri Bandara, you can send an email to isuru.s@nsbm.ac.lk." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"pavithra\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Ms. Pavithra Subhashini , you can send an email to pavithras@nsbm.ac.lk." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"gayan\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Mr. Gayan Perera, you can send an email to gayanp@nsbm.ac.lk." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"dulanjali\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Ms. Dulanjali Wijesekara, you can send an email to dulanjali.w@nsbm.ac.lk." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"shafraz\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Mr. Mohamed Shafraz, you can send an email to shafraz@nsbm.ac.lk." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"Naji\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Mr. Naji Saravanabavan, you can send an email to naji@nsbm.ac.lk." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"chalani\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get in touch with Ms. Chalani Oruthotaarachchi, you can send an email to chalani.r@nsbm.ac.lk." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "I'm sorry, that question is beyond my capabilities." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      } ]
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "8ff4a4f5-658a-432f-9ad7-f911e370c840"
+  } ]
+}

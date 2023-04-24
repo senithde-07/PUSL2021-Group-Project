@@ -1,0 +1,131 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "i made the",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " semester payment but still ",
+      "auto": true
+    }, {
+      "text": "my accounts haven't",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " been unlocked yet",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my student id is "
+    }, {
+      "text": "22564",
+      "parameterId": "student-id"
+    }, {
+      "text": ". after paying "
+    }, {
+      "text": "fees, still my account is locked",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "have made the payment but my accounts are still locked",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": ". please assist me with this. my student id is "
+    }, {
+      "text": "21657",
+      "parameterId": "student-id"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "NSBM Locked Account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "NSBM Acc is locked",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Fees are paid but  NSBM account is not unlocked",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I made my payment but the NSBM  acc is still locked",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Despite making a payment the  NSBM account is still not unlocked.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The NSBM  account remains locked even though payment has been made.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "but the  NSBM account remains locked.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Payment has been received",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Despite the payment being made the NSBM  account is still inaccessible.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The payment has been processed but the NSBM account remains locked.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

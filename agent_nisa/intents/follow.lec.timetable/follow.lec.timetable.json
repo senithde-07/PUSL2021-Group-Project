@@ -1,0 +1,15 @@
+{
+  "name": "87d07331-d42d-45af-ad2a-61f04976e7d4",
+  "displayName": "follow.lec.timetable",
+  "parameters": [ {
+    "id": "batch",
+    "entityType": "@batch"
+  }, {
+    "id": "degree-offerer",
+    "entityType": "@degree-offerer"
+  }, {
+    "id": "semesters",
+    "entityType": "@semesters"
+  } ],
+  "priority": 500000
+}

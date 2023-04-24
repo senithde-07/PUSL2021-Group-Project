@@ -1,0 +1,446 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "exchange degree",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "switch my degree",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "switch degrees",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from ",
+      "auto": true
+    }, {
+      "text": "SE",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to Com Sci",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from ",
+      "auto": true
+    }, {
+      "text": "SE",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to CS",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from ",
+      "auto": true
+    }, {
+      "text": "SE",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to CN",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from CS to CN",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from CS to ComSci",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from CS to ",
+      "auto": true
+    }, {
+      "text": "SE",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from ComSci to CS",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from ComSci to CN",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from ComSci to ",
+      "auto": true
+    }, {
+      "text": "SE",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from CN to CS",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from CN to Comsci",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Switch from CN to ",
+      "auto": true
+    }, {
+      "text": "SE",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from ",
+      "auto": true
+    }, {
+      "text": "computer science",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to software engineering.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from ",
+      "auto": true
+    }, {
+      "text": "computer science",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from ",
+      "auto": true
+    }, {
+      "text": "computer science",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to computer ",
+      "auto": true
+    }, {
+      "text": "security",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from Software engineering to computer ",
+      "auto": true
+    }, {
+      "text": "security",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from Software engineering to ",
+      "auto": true
+    }, {
+      "text": "computer science",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from Software engineering to computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from computer ",
+      "auto": true
+    }, {
+      "text": "security",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to ",
+      "auto": true
+    }, {
+      "text": "Computer science",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from computer ",
+      "auto": true
+    }, {
+      "text": "security",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from computer ",
+      "auto": true
+    }, {
+      "text": "security",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to software engineering.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to ",
+      "auto": true
+    }, {
+      "text": "computer science",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to computer ",
+      "auto": true
+    }, {
+      "text": "security",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to switch from computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " to software engineering.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Change my degree.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to change my degree.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How to switch from one degree to another",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How do I change my degree",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the requirements for changing my degree program.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What's the process for altering my degree plan.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm interested in pursuing a different degree. What do I need to do to make the switch?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How do I change my degree.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the procedures for switching from a degree to another?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the process of changing my degree?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What's involved in changing the focus of my degree?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How can I transition for another degree program?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What steps do I need to take to change my degree program?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you explain how to switch degree?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

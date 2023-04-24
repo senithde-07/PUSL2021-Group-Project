@@ -1,0 +1,23 @@
+{
+  "name": "2bccdd63-8c16-4efa-aa5c-4469b2ec54cc",
+  "displayName": "Can't Mark Attendance",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "This might happen if you have still not made your semester payment. If you had paid your semester fee and still having problems marking the attendance, Please visit the IT department to clarify this issue" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "907ccbf4-054c-4497-a575-0c71b1f6fb4d"
+  } ]
+}

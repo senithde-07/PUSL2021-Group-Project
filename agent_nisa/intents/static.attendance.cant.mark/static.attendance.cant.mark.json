@@ -1,0 +1,13 @@
+{
+  "name": "740aed91-4c20-4adc-a23f-1725478f7923",
+  "displayName": "static.attendance.cant.mark",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "When attendance cannot be marked"
+}

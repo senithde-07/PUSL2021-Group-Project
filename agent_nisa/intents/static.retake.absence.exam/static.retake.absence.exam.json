@@ -1,0 +1,6 @@
+{
+  "name": "43608e5f-1e4f-44db-8a11-ddd606970071",
+  "displayName": "static.retake.absence.exam",
+  "priority": 500000,
+  "description": "This intent triggers when user asks about retaking absent exams."
+}

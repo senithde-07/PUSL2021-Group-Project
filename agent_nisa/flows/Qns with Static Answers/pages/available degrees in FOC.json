@@ -1,0 +1,23 @@
+{
+  "name": "d108ed4b-9a1f-4960-9669-98f421448cc9",
+  "displayName": "available degrees in FOC",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Available degrees in Faculty of Computing are:\n\nDepartment of Data Science\nBSc (Honours) in Data Science - (UGC Approved - Offered By NSBM)\n\nDepartment of Network and Security\nBSc (Hons) Computer Networks - (Plymouth University - United Kingdom)\nBSc (Hons) Computer Security - (Plymouth University - United Kingdom)\nBachelor of Information Technology (Major in Cyber Security) - (Victoria University - Australia)\nBSc (Hons) in Computer Networks - (UGC Approved - Offered By NSBM)\n\nDepartment of Computer Science and Software Engineering\nBSc (Hons) Computer Science - (Plymouth University - United Kingdom)\nBSc (Hons) Software Engineering - (Plymouth University - United Kingdom)\nBSc (Hons) in Computer Science - (UGC Approved - Offered By NSBM)\nBSc (Hons) in Software Engineering - (UGC Approved - Offered By NSBM)\nFoundation Programme for Bachelor’s Degree\n\nDepartment of Information and Systems Sciences\nBSc (Hons) Technology Management - (Plymouth University - United Kingdom)\nBSc in Management Information Systems (Special) - (UGC Approved - Offered By NSBM\n\n" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "5b38a7e2-c02a-468f-a0db-0435c5c08bd0"
+  } ]
+}

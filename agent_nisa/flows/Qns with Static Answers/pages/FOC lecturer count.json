@@ -1,0 +1,23 @@
+{
+  "name": "73753523-2e01-4b58-81ff-9afb2e854580",
+  "displayName": "FOC lecturer count",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The Faculty of Computing has a permanent academic staff comprising 14 lecturers.", "The permanent academic staff of the Faculty of Computing comprises 14 lecturers." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "53b00467-7388-4fb6-869f-372c6bb1b783"
+  } ]
+}

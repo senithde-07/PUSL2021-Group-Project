@@ -1,0 +1,23 @@
+{
+  "name": "6a8d787a-d822-40f4-97b3-676b7d68a852",
+  "displayName": "Transcript No Marks",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "If your friends had received marks and you haven't, wait for some time because all these marks won't get updated at once. After waiting if you haven't still received, contact the examination department" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "cc946424-8a98-4db0-8de4-269a834e1fd9"
+  } ]
+}

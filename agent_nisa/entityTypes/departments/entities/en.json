@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Department of Data Science",
+    "synonyms": [ "data science", "data science department", "Department of Data Science ", "ds" ],
+    "languageCode": "en"
+  }, {
+    "value": "Department of Network and Security",
+    "synonyms": [ "cn", "comp sec", "Department of Network and Security ", "network and security department", "network department", "network dept", "networks", "security", "security department" ],
+    "languageCode": "en"
+  }, {
+    "value": "Department of Computer Science and Software Engineering",
+    "synonyms": [ "comp sc", "Computer Science and Software Engineering department", "computer science department", "cs", "cs dept", "Department of Computer Science and Software Engineering ", "se", "se dept", "software engineering department", "software engineering dept" ],
+    "languageCode": "en"
+  }, {
+    "value": "Department of Information and Systems Sciences",
+    "synonyms": [ "Department of Information and Systems Sciences", "Information and Systems Sciences Department ", "iss", "iss dept", "system sciences department", "system sciences dept", "information dept" ],
+    "languageCode": "en"
+  } ]
+}

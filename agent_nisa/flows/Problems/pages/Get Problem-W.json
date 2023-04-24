@@ -1,0 +1,44 @@
+{
+  "name": "eaeb37ca-4a65-40f7-8775-1211a95edd9b",
+  "displayName": "Get Problem-W",
+  "form": {
+    "parameters": [ {
+      "displayName": "student-id",
+      "required": true,
+      "entityType": "@student-id",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Can you please tell me your NSBM Student ID?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "technical-problems",
+      "required": true,
+      "entityType": "@technical-problems",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Can you define what your problem is?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "webhook": "record-problem",
+      "tag": "prob"
+    },
+    "targetPage": "End Flow",
+    "name": "739749f7-98d8-4903-9f67-6a5748b2452e"
+  } ]
+}

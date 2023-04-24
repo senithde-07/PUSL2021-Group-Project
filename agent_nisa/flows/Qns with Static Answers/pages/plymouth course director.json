@@ -1,0 +1,23 @@
+{
+  "name": "4098411c-213d-43e2-b029-191e5c0d94ea",
+  "displayName": "plymouth course director",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The individual who currently holds the position of course director at Plymouth University is Mr. Pramudya Thilakarathne." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "be55dafa-b920-43f3-9dca-558463bd0837"
+  } ]
+}

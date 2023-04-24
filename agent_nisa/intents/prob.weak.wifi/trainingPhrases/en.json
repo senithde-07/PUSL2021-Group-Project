@@ -1,0 +1,132 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "wifi signal is really low.",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " my id number is ",
+      "auto": true
+    }, {
+      "text": "23125",
+      "parameterId": "student-id"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Internet is slow.",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " My id is ",
+      "auto": true
+    }, {
+      "text": "23409",
+      "parameterId": "student-id"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My student id is "
+    }, {
+      "text": "21478",
+      "parameterId": "student-id"
+    }, {
+      "text": "and the wifi signal is very weak",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Wifi connection is slow",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "wifi connection is unreliable.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "wifi is patchy.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "wifi is spotty.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "wifi signal is dropping off.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "wifi keeps disconnecting.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "wifi is unstable.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The wifi is cutting in and out.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The wifi is fluctuating.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The wifi connection is intermittent.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The wifi signal is weakening.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

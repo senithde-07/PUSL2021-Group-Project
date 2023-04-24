@@ -1,0 +1,10 @@
+{
+  "name": "6dd5ebc2-a259-47cd-84db-a92d245dea69",
+  "displayName": "session-intent-send",
+  "genericWebService": {
+    "uri": "https://asia-south1-university-chatbot-381515.cloudfunctions.net/record-session-intent"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "8564122d-2556-4cf7-8ca7-69fce63e1cf4",
+  "displayName": "Lecture hall count",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The faculty of computing has 15 lecture halls." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "3554c614-3754-4505-9643-55d8f5c7dbf5"
+  } ]
+}

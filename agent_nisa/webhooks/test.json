@@ -1,0 +1,10 @@
+{
+  "name": "84a6ac6c-d264-40d4-8920-834408ab1b5b",
+  "displayName": "test",
+  "genericWebService": {
+    "uri": "https://asia-south1-university-chatbot-381515.cloudfunctions.net/test-py"
+  },
+  "timeout": {
+    "seconds": 7
+  }
+}

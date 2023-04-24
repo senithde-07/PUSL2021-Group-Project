@@ -1,0 +1,23 @@
+{
+  "name": "5432103b-c4c2-49ef-be48-2338f2c0e2a2",
+  "displayName": "Retake absence exam",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "If you missed an exam due to an absence, the first step is to submit an Extenuating circumstance form within a week from the exam date.\nYou may need to provide documentation to support your absence, such as a doctor's note or other official documentation within the EC Form.\n\nIf the evidence is considerable and allowed you to retake the exam, make sure you understand the requirements and the deadline for completing the retake exam." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "6b61625e-10a4-4ebb-90ff-a9eab68b712f"
+  } ]
+}

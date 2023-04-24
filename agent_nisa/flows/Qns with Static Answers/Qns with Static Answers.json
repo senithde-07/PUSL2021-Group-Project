@@ -1,0 +1,284 @@
+{
+  "name": "d69d9120-444c-41e3-af97-c8fe2d162ddb",
+  "displayName": "Qns with Static Answers",
+  "transitionRoutes": [ {
+    "intent": "static.webhook.hall.allocation",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Daily Hall Allocation-W",
+    "name": "cec53571-b9d7-48b5-9fa0-4e00df24d357"
+  }, {
+    "intent": "static.blame.scold",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Scold",
+    "name": "b01c8b64-056c-4fc6-ac2d-dee212b47c7b"
+  }, {
+    "intent": "static.late.payments",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Late payment",
+    "name": "24f06bcc-1dd9-41d4-8fc8-c704e1179366"
+  }, {
+    "intent": "static.vc.nsbm",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "VC Nsbm",
+    "name": "a5929293-20a4-45c7-a085-68f43f05efe9"
+  }, {
+    "intent": "static.submit.ec",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Submit EC",
+    "name": "9f22731c-b192-44da-bf8e-1a6fbabbf14c"
+  }, {
+    "intent": "static.foc.lecturers.count",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "FOC lecturer count",
+    "name": "7b663953-53b4-4abd-b9bb-65ec94bbc007"
+  }, {
+    "intent": "static.is.degree.hard",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Is degree hard",
+    "name": "fa63c96d-a5dc-463c-b35c-1eabe1b0bd6e"
+  }, {
+    "intent": "static.retake.absence.exam",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Retake absence exam",
+    "name": "0dfbf404-6c9e-40bc-919a-366a07e0972e"
+  }, {
+    "intent": "static.available.degrees",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "available degrees in FOC",
+    "name": "d9a460b1-caf9-460c-b7ea-0227386c309b"
+  }, {
+    "intent": "static.exam.pass.rate",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "exam pass rate",
+    "name": "776a4546-4d4b-4172-8005-db6e5d96cf64"
+  }, {
+    "intent": "static.exam.results.dle",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "exam results dle",
+    "name": "a07224a4-5454-47bd-b89b-7541f643e750"
+  }, {
+    "intent": "static.change.degree",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "change degree",
+    "name": "faf7ebd3-0504-4bc8-9cd5-535a46982a78"
+  }, {
+    "intent": "static.nsbm.stands.for",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "nsbm stands for",
+    "name": "65c55656-1dfa-41cf-8840-569806ef8cbd"
+  }, {
+    "intent": "static.foc.departments",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Foc departments",
+    "name": "3b8d17e9-110e-453b-97f3-66f5be9b140e"
+  }, {
+    "intent": "static.dvc.nsbm",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "DVC nsbm",
+    "name": "57a25fea-73d6-44d9-80d2-d4bfd1ec3dcc"
+  }, {
+    "intent": "static.dean.foc",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Foc Dean",
+    "name": "8a8d384d-c10f-409e-86a0-2309a7151438"
+  }, {
+    "intent": "static.hardest.degree",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "hardest degree",
+    "name": "a4febea1-c26e-42da-8d82-f3b5f7a3f805"
+  }, {
+    "intent": "static.foc.societies",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "foc socities",
+    "name": "d7eb9af0-271e-428e-8847-b1105eb555e2"
+  }, {
+    "intent": "static.plymouth.course.directer",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "plymouth course director",
+    "name": "68d1e437-8755-4457-8236-a5aa96d39783"
+  }, {
+    "intent": "static.other.questions",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "other questions",
+    "name": "9db86dd8-1221-4391-8b30-fe475ddd3675"
+  }, {
+    "intent": "static.stupid.questions",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "stupid questions",
+    "name": "9e696618-496f-4d44-ba0f-ca2c4d2d860b"
+  }, {
+    "intent": "Static.lecturer.personal.detail",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "lecturer personal nfo",
+    "name": "1a3c7e61-41dc-4bbe-8edc-88243b24077e"
+  }, {
+    "intent": "static.foc.lecture.halls.count",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Lecture hall count",
+    "name": "5e2d52ae-31ae-4607-b496-5e1018ffeef3"
+  }, {
+    "intent": "static.exam.reattempt",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "exam reattempt",
+    "name": "e02c5685-e48c-4ac9-8c98-26fc2ee60233"
+  }, {
+    "intent": "static.acc.still-locked",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Paid But Still locked",
+    "name": "c90bec91-26c7-4ac7-9235-b64b50d5b852"
+  }, {
+    "intent": "static.attendance.cant.mark",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Can't Mark Attendance",
+    "name": "82e7f338-3ca7-4878-93f2-dbc495dec2fb"
+  }, {
+    "intent": "static.easy.degree",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Easiest Degree",
+    "name": "15390360-906e-4d31-ab13-569aeec95a8a"
+  }, {
+    "intent": "static.out.of.scope",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Out of Scope",
+    "name": "a8d44ffd-4194-4e66-b9fb-62e1b2d42b6d"
+  }, {
+    "intent": "static.request.letters",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Request letters",
+    "name": "4d33d9f3-9e35-4419-b53c-435c0118bd4d"
+  }, {
+    "intent": "static.tech.problems",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Tech Problems",
+    "name": "478b832d-4025-4731-b69e-80ab86c35208"
+  }, {
+    "intent": "static.transcript.no.marks",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Transcript No Marks",
+    "name": "74855b52-3ce9-4906-86a4-7b950f699ac2"
+  }, {
+    "intent": "static.exam.seat.not.received",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Exam seat not received",
+    "name": "45b3cd14-bdaa-4670-9fbe-31aebc510ee6"
+  }, {
+    "intent": "static.hall.book",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Hall Book",
+    "name": "962795e4-dae2-43c3-9f2a-c8f072d3e9f7"
+  }, {
+    "intent": "static.nsbm.id",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "NSBM ID",
+    "name": "b4b64e11-a75f-43b1-8a25-56bd9472a6ab"
+  }, {
+    "intent": "static.plymouth.id",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Plymouth ID",
+    "name": "d96b1835-9580-4aeb-b6cb-d910380883a4"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "ebfba799-7790-4e57-af6d-0f58fe69e307"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d7631463-5f2c-4d44-8b77-90c3ed783d66"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

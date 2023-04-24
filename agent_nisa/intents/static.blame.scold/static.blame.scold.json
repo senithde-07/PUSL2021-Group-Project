@@ -1,0 +1,10 @@
+{
+  "name": "92e9eee4-ff3a-4842-8485-a46876b2fd9d",
+  "displayName": "static.blame.scold",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user blame or scold."
+}

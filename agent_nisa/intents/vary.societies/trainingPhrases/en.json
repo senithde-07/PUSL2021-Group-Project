@@ -1,0 +1,198 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "What is meant by "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "More information on "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Want to know about "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Info about "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": " does"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "IEEE",
+      "parameterId": "societies"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you tell me about the "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": " society and what it does?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the purpose of the "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": " society?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you share some insights on "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm interested in learning more about "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": ", could you provide some information?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What can you tell me about the "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": " organization?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you give me some details about "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the meaning of "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Would you mind explaining what "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": " is?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you provide some information on "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm not familiar with "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": ", can you give me an overview?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": " and what does it do?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you tell me more about "
+    }, {
+      "text": "IEEE",
+      "parameterId": "societies"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "8f9cbb8b-9f09-4eee-90b3-8a6f2e027950",
+  "displayName": "static.other.questions",
+  "priority": 500000,
+  "description": "This intent triggers when user asks other questions that are out of the scope."
+}

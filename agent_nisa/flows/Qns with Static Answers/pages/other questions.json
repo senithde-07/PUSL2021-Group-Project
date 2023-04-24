@@ -1,0 +1,23 @@
+{
+  "name": "c5573645-44bc-4b05-8388-f51db5b0ac22",
+  "displayName": "other questions",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I'm sorry, that's out of my knowledge or expertise range." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "894acd52-5061-41e6-b87b-00401e47cf1f"
+  } ]
+}

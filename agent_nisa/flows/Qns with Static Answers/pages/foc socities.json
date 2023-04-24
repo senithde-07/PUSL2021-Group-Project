@@ -1,0 +1,23 @@
+{
+  "name": "2ad4eb3d-947c-4d99-8e21-f4345527f3f7",
+  "displayName": "foc socities",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The Faculty of Computing has several specific clubs, including FOSS, IEEE, and ISACA" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "87677646-6e51-47d2-a331-2b47be2f6ea7"
+  } ]
+}

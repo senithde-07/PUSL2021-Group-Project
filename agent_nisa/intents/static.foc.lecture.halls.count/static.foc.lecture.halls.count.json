@@ -1,0 +1,6 @@
+{
+  "name": "897df278-af93-4740-a4dc-36c7e938ef01",
+  "displayName": "static.foc.lecture.halls.count",
+  "priority": 500000,
+  "description": "This intent triggers when user asks about the lecture halls count in FOC."
+}

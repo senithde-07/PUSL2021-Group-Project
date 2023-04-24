@@ -1,0 +1,9 @@
+{
+  "name": "581470ea-1cc9-48e8-a057-94f5ef970d87",
+  "displayName": "vary.lecturer.cabin.location",
+  "parameters": [ {
+    "id": "lecturer-names",
+    "entityType": "@lecturer-names"
+  } ],
+  "priority": 500000
+}

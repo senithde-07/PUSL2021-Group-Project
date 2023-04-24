@@ -1,0 +1,190 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "difficulty in login to MS accounts",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot "
+    }, {
+      "text": "login to MS acc",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i cant ",
+      "auto": true
+    }, {
+      "text": "log into my office account",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " and my student id is ",
+      "auto": true
+    }, {
+      "text": "21587",
+      "parameterId": "student-id"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my student id is "
+    }, {
+      "text": "21295",
+      "parameterId": "student-id"
+    }, {
+      "text": " and "
+    }, {
+      "text": "i cant log into to my microsoft acc",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "can't sign into my microsoft office account.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Office 365 login failed",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "office account login problem",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Microsoft acc problem. Cannot login to my office account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "reason that I cannot log in to Microsoft acc",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "difficulty in log in to microsoft account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "unable to authenticate into my Microsoft account. Cannot log to microsoft account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "struggling to access Microsoft applications with my account credentials",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Microsoft account login is not functioning properly",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "receiving error messages when attempting to sign in to my Microsoft account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "can't get into my Microsoft account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "experiencing trouble logging into my Microsoft account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I am facing a ",
+      "auto": true
+    }, {
+      "text": "problem. Unable to access Microsoft services with my account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Microsoft account login not working. I",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " have a problem",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "having ",
+      "auto": true
+    }, {
+      "text": "difficulty accessing Microsoft account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Unable to sign in to Microsoft account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

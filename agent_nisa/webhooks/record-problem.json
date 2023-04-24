@@ -1,0 +1,10 @@
+{
+  "name": "90b058d3-1fb8-4a9b-8736-1bbfac68a791",
+  "displayName": "record-problem",
+  "genericWebService": {
+    "uri": "https://asia-south1-university-chatbot-381515.cloudfunctions.net/record-problem"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

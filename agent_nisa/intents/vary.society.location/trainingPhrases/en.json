@@ -1,0 +1,28 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "location of ",
+      "auto": true
+    }, {
+      "text": "foss",
+      "parameterId": "societies",
+      "auto": true
+    }, {
+      "text": " community",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "IEEE",
+      "parameterId": "societies",
+      "auto": true
+    }, {
+      "text": " location",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "9d93e8da-3f1e-4f3b-9583-659263e34616",
+  "displayName": "prob.office-acc.locked",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "Triggers when office acc gets locked"
+}

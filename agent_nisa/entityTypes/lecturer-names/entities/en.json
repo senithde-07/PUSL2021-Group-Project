@@ -1,0 +1,51 @@
+{
+  "entities": [ {
+    "value": "pramudya",
+    "synonyms": [ "Mr. Pramudya Thilakarathne", "Mr.Pramudya", "pramudya", "pramudya sir ", "Pramudya Thilakarathne" ],
+    "languageCode": "en"
+  }, {
+    "value": "nethmi",
+    "synonyms": [ "Ms. Nethmi Weerasingha", "Ms.Nethmi", "nethmi", "nethmi miss", "Nethmi Weerasingha" ],
+    "languageCode": "en"
+  }, {
+    "value": "chamindra",
+    "synonyms": [ "Attanayake", "Attanayake sir", "chamindra", "Chamindra Attanayake", "chamindra sir", "CMB Attanayake", "Mr. Chamindra Attanayake", "Mr.Chamindra" ],
+    "languageCode": "en"
+  }, {
+    "value": "chamara",
+    "synonyms": [ "chamara", "Chamara Disanayake", "chamara sir", "Disanayake sir", "Mr. Chamara Disanayake ", "Mr.Chamara" ],
+    "languageCode": "en"
+  }, {
+    "value": "Dilhara",
+    "synonyms": [ "batan", "Batan sir", "Dilhara", "Dilhara Batan", "dilhara sir", "Mr. Dilhara Batan Arachchige ", "Mr.Dilhara" ],
+    "languageCode": "en"
+  }, {
+    "value": "Isuru",
+    "synonyms": [ "Isuru", "isuru sir", "Isuru Sri Bandara", "Mr. Isuru Sri Bandara", "Mr.Isuru" ],
+    "languageCode": "en"
+  }, {
+    "value": "pavithra",
+    "synonyms": [ "Ms. Pavithra Subhashini ", "Ms.Pavithra", "pavithra", "Pavithra miss", "Pavithra Subhashini", "Subhashini miss" ],
+    "languageCode": "en"
+  }, {
+    "value": "gayan",
+    "synonyms": [ "gayan", "Gayan Perera", "Gayan sir", "Mr. Gayan Perera", "Mr.Gayan" ],
+    "languageCode": "en"
+  }, {
+    "value": "dulanjali",
+    "synonyms": [ "dulanjali", "Dulanjali miss", "Dulanjali Wijesekara", "Ms. Dulanjali Wijesekara", "Ms.Dulanjali" ],
+    "languageCode": "en"
+  }, {
+    "value": "shafraz",
+    "synonyms": [ "Mohamed Shafraz", "Mohamed sir", "Mr. Mohamed Shafraz", "Mr.Mohamed", "Mr.Shafraz", "shafraz", "Shafraz sir" ],
+    "languageCode": "en"
+  }, {
+    "value": "Naji",
+    "synonyms": [ "Mr. Naji Saravanabavan", "Mr.Naji", "Naji", "Naji sir" ],
+    "languageCode": "en"
+  }, {
+    "value": "chalani",
+    "synonyms": [ "chalani", "Chalani miss", "Ms. Chalani Oruthotaarachchi", "Ms.Chalani" ],
+    "languageCode": "en"
+  } ]
+}

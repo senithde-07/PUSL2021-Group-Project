@@ -1,0 +1,90 @@
+{
+  "name": "74925dab-091c-4053-a445-6cfa01e681f0",
+  "displayName": "Society Info",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "conditionalCases": [ {
+      "cases": [ {
+        "condition": "$session.params.societies = \"IEEE\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "An IEEE Student Branch provides opportunities to meet and learn from fellow IEEE Student and Graduate Student Members and engage with professional IEEE members locally. An active IEEE Student Branch can be one of the most positive elements of your academic career, offering programs, activities, and professional networking opportunities that build critical skills outside of the classroom." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "IEEE currently has Student Branches at thousands of universities and colleges in hundreds of countries throughout the world." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.societies = \"FOSS\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "FOSS, standing for Free and Open Source Software is an international movement with the mission of protecting user freedom by giving the opportunity to run, study, improve a program, and redistribute copies to help each other by making the software free and open source." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "The expectation is the faster evolution of software as users contribute to improving it. Basically, the vision is consolidated mind-sharing." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.societies = \"ISACA\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "hii" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.societies = \"Innovators club\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "NSBM Innovators’ Club encourages students to come up with new ideas and knowledge sharing. Innovators are currently conducting island-wide IOT(Arduino \u0026 Raspberry Pi) workshops for beginners." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "They also conduct in-house web designing and robotics workshops for undergraduates." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "I am unable to find a society associated with the name that you entered. Sorry for the inconvenience!" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      } ]
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "e0e17185-f19f-42b0-9556-cfd6a0a12114"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "39d0684b-b3cd-4e08-aa78-774c4a4d0383",
+  "displayName": "static.is.degree.hard",
+  "parameters": [ {
+    "id": "departments",
+    "entityType": "@departments"
+  }, {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks if degrees are hard."
+}

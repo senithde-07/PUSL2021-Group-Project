@@ -1,0 +1,23 @@
+{
+  "name": "26b01d4a-319f-4168-a167-8b4a302f04ca",
+  "displayName": "Paid But Still locked",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "It takes approximately 3 working days to process your payment and unlock your accounts. If 3 days have been passed and still your account is locked, Please visit the Recovery Unit" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "1ff387d1-3c77-4245-a634-59599b5f4a8f"
+  } ]
+}

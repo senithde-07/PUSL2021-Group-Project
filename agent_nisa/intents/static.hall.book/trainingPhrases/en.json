@@ -1,0 +1,167 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "lec ",
+      "auto": true
+    }, {
+      "text": "hall",
+      "auto": true
+    }, {
+      "text": " reserve",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "hall",
+      "auto": true
+    }, {
+      "text": " reserve",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "hall",
+      "auto": true
+    }, {
+      "text": " book",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "lec ",
+      "auto": true
+    }, {
+      "text": "hall",
+      "auto": true
+    }, {
+      "text": " booking",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "book a lec ",
+      "auto": true
+    }, {
+      "text": "hall for",
+      "auto": true
+    }, {
+      "text": " studies",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "reserve a lec ",
+      "auto": true
+    }, {
+      "text": "hall for",
+      "auto": true
+    }, {
+      "text": " study purposes",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "book a lec ",
+      "auto": true
+    }, {
+      "text": "hall",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to reserve a lec ",
+      "auto": true
+    }, {
+      "text": "hall",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "procedure to book a lecture ",
+      "auto": true
+    }, {
+      "text": "hall",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "procedure to book ",
+      "auto": true
+    }, {
+      "text": "a hall",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "book ",
+      "auto": true
+    }, {
+      "text": "a hall for",
+      "auto": true
+    }, {
+      "text": " studies",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want to",
+      "auto": true
+    }, {
+      "text": " book ",
+      "auto": true
+    }, {
+      "text": "a hall for",
+      "auto": true
+    }, {
+      "text": " studies",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want to",
+      "auto": true
+    }, {
+      "text": " book a lecture ",
+      "auto": true
+    }, {
+      "text": "hall",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want to book ",
+      "auto": true
+    }, {
+      "text": "a hall",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

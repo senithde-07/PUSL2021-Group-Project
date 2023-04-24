@@ -1,0 +1,14 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "pramudya sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": " cabin",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

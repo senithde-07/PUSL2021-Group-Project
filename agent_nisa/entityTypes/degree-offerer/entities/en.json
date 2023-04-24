@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "ugc",
+    "synonyms": [ "ugc", "UGC", "ugc degree", "university grants commision degree" ],
+    "languageCode": "en"
+  }, {
+    "value": "plymouth",
+    "synonyms": [ "foreign degree", "plymouth", "plymouth degree", "plymouth university degree", "pu", "pu degree", "uk degree" ],
+    "languageCode": "en"
+  }, {
+    "value": "victoria",
+    "synonyms": [ "victoria", "victoria university", "vu", "vu austraila", "vu degree" ],
+    "languageCode": "en"
+  } ]
+}

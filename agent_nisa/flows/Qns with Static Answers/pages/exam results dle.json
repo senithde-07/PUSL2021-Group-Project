@@ -1,0 +1,23 @@
+{
+  "name": "3b84dc33-014b-4407-b9d7-ad9415707643",
+  "displayName": "exam results dle",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "In order to check exam results in DLE , Here are some general steps that may help you:\n\nLog in to your DLE account using your username and password. \nClick on the dropdown tab Tools \u0026 Resources.\nnext, Look for the section or tab that contains your exam results. This may be labeled as a \"Statement of results\"." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "b530ac54-15de-4e3b-95df-430154607a60"
+  } ]
+}

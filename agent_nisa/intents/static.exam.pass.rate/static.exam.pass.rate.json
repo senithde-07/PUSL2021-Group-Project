@@ -1,0 +1,19 @@
+{
+  "name": "5a773402-8dc8-4e89-94d5-096f58daca3f",
+  "displayName": "static.exam.pass.rate",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "technical-problems1",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "ordinal",
+    "entityType": "@sys.ordinal"
+  }, {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about exam pass rates."
+}

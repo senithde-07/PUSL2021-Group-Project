@@ -1,0 +1,708 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "23rd",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lec",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "tomorrow",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecs",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lectures",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "day after tomorrow",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture hall",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "1st of april 2023",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture hall allocation.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you inform me about the location of ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture hall?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the venue for ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Where is our lecture being held ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "tell me where the lecture hall is scheduled for ",
+      "auto": true
+    }, {
+      "text": "21st april",
+      "parameterId": "date-time",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "May",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " I know the lectures scheduled for ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you tell me what lectures are on ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " timetable.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the agenda for ",
+      "auto": true
+    }, {
+      "text": "tomorrow",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lectures.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Which lectures are being held ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the lectures for ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " schedule.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you inform me of the lectures happening ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What classes do I have ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you provide me with a list of lectures taking place ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What lectures are scheduled for ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you give me the schedule for ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lectures.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the timetable for ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lectures.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the lecture times for ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Where can I find ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture schedule.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you provide me with information on ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture schedule?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is there a lecture schedule for ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " that I can access?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the schedule for ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lectures?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you tell me what the lecture schedule is for ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "May",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " I know the lecture timetable for ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you please let me know the agenda for ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lectures.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is there a schedule for ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lectures that I can have a look at.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What courses do we have scheduled for ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lecs happening tdy.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lecs happening ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lectures happening ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the lectures happening ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you give me information on the lectures that are happening ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm curious about ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " class schedule. Could you please provide me with the details?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "When and where are the lectures taking place ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you tell me what classes are happening ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the lecture schedule for ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Give me ",
+      "auto": true
+    }, {
+      "text": "todays",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture plan.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Give me ",
+      "auto": true
+    }, {
+      "text": "todays",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture schedule.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "send me ",
+      "auto": true
+    }, {
+      "text": "todays",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture schedule",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Need ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lec schedule.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Need the lecture schedule of ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Want to know ",
+      "auto": true
+    }, {
+      "text": "today's",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture schedule.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Schedule of the lectures ",
+      "auto": true
+    }, {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture hall alocation",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " lecture schedule",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the lecture schedule ",
+      "auto": true
+    }, {
+      "text": "Today",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Td lectures",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Td lecs",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Today",
+      "auto": true
+    }, {
+      "text": " Lecture Hall Allocation",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Tdy lecture",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Tdy lec",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Tdy lecs",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

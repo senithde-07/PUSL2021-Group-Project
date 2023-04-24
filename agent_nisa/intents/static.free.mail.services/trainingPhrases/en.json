@@ -1,0 +1,265 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Services",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "for campus mail",
+      "parameterId": "technical-problems1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Services",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " we ",
+      "auto": true
+    }, {
+      "text": "get for the NSBM mail",
+      "parameterId": "technical-problems1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What we can",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " use ",
+      "auto": true
+    }, {
+      "text": "free",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "for NSBM email",
+      "parameterId": "technical-problems2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Facilities we ",
+      "auto": true
+    }, {
+      "text": "get for NSBM email",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "NSBM email",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " benefits",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Benefits we ",
+      "auto": true
+    }, {
+      "text": "get through NSBM email",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Campus mail",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " benefits",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Services",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "we get",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "free",
+      "parameterId": "technical-problems2",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "through campus mail",
+      "parameterId": "technical-problems2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the benefits of using ",
+      "auto": true
+    }, {
+      "text": "campus mail",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "services",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Are there any",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " specific ",
+      "auto": true
+    }, {
+      "text": "services that I can access",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "through campus mail",
+      "parameterId": "technical-problems2",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you explain the ",
+      "auto": true
+    }, {
+      "text": "services that",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " are provided ",
+      "auto": true
+    }, {
+      "text": "through campus mail",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What can I use ",
+      "auto": true
+    }, {
+      "text": "campus mail for",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you provide me ",
+      "auto": true
+    }, {
+      "text": "with a list",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " of ",
+      "auto": true
+    }, {
+      "text": "services",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": " offered ",
+      "auto": true
+    }, {
+      "text": "through campus mail",
+      "parameterId": "technical-problems2",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the ",
+      "auto": true
+    }, {
+      "text": "services",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "available",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "through campus mail",
+      "parameterId": "technical-problems2",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,183 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Plymouth",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " course director",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who is the course director of ",
+      "auto": true
+    }, {
+      "text": "plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Course director of ",
+      "auto": true
+    }, {
+      "text": "plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you provide me with the name of the person in charge of the ",
+      "auto": true
+    }, {
+      "text": "Plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " course?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who is the head of the ",
+      "auto": true
+    }, {
+      "text": "Plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " course?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who is at the helm of the ",
+      "auto": true
+    }, {
+      "text": "Plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " course?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who holds the position of course director for ",
+      "auto": true
+    }, {
+      "text": "Plymouth",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "May I know who directs the ",
+      "auto": true
+    }, {
+      "text": "Plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " course?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who is responsible for ",
+      "auto": true
+    }, {
+      "text": "managing",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " the ",
+      "auto": true
+    }, {
+      "text": "Plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " course?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who leads the course ",
+      "auto": true
+    }, {
+      "text": "in Plymouth",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you tell me the name of the course director for ",
+      "auto": true
+    }, {
+      "text": "Plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who oversees the ",
+      "auto": true
+    }, {
+      "text": "Plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " course?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who is in charge of the ",
+      "auto": true
+    }, {
+      "text": "Plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " course?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

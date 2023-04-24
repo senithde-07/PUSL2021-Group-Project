@@ -1,0 +1,179 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "unable to write for the exam this time, what can i do"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "can't write the exam"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot participate for the exam"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cannot sit exam"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I won't be able to do the exam, what can I do now?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I couldn't do the exam, what can I do about it."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I was unable to do the exam, how to do that exam again"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I was unable to do the exam, how to do that exam again"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I was unable to sit for the exam, how could I retake the exam."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I couldn't do the exam, what can I do for it."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I "
+    }, {
+      "text": "won't be able to do the exam, what I can do"
+    }, {
+      "text": " now?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Process"
+    }, {
+      "text": " to do if I "
+    }, {
+      "text": "couldn't do the exam."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I was"
+    }, {
+      "text": " unable to face ",
+      "auto": true
+    }, {
+      "text": "the exam,"
+    }, {
+      "text": " and I'm hoping to retake it. Could you please provide me with details on how to do so?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Regrettably",
+      "auto": true
+    }, {
+      "text": ", I was"
+    }, {
+      "text": " unable ",
+      "auto": true
+    }, {
+      "text": "to appear for the"
+    }, {
+      "text": " exam. Can you please help me with information on how ",
+      "auto": true
+    }, {
+      "text": "to take"
+    }, {
+      "text": " it again?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I had ",
+      "auto": true
+    }, {
+      "text": "to miss the exam"
+    }, {
+      "text": " for personal ",
+      "auto": true
+    }, {
+      "text": "reasons."
+    }, {
+      "text": " What are my options for reattempting it?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Due to unforeseen circumstances",
+      "auto": true
+    }, {
+      "text": ", I couldn'"
+    }, {
+      "text": "t take ",
+      "auto": true
+    }, {
+      "text": "the exam."
+    }, {
+      "text": " Could you advise me on how ",
+      "auto": true
+    }, {
+      "text": "to register"
+    }, {
+      "text": " for a retake?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Unfortunately",
+      "auto": true
+    }, {
+      "text": ", I wasn't"
+    }, {
+      "text": " able to sit for ",
+      "auto": true
+    }, {
+      "text": "the exam. Can"
+    }, {
+      "text": " you please guide me on how to reschedule it?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

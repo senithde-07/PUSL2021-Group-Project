@@ -1,0 +1,10 @@
+{
+  "name": "0292855a-d0e2-4e90-8e5f-49a8b9504576",
+  "displayName": "static.webhook.hall.allocation",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000,
+  "description": "Intents for daily hall allocation"
+}

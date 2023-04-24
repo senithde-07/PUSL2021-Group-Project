@@ -1,0 +1,134 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "my id number is "
+    }, {
+      "text": "21789",
+      "parameterId": "student-id"
+    }, {
+      "text": " and i "
+    }, {
+      "text": "dont have acces to my office account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my office account has been lock.",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " please assist me with this. my student id is ",
+      "auto": true
+    }, {
+      "text": "21748",
+      "parameterId": "student-id"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Office acc locked",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Office account got locked",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The system has locked me out of my office account.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm currently unable to use my office account as it has been locked,",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " and I can't access it."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My office account has been disabled",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The access to my office account has been restricted due to it being locked.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "It seems that my office account has been locked and I can't login.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I have been locked out of my office account",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " and I can't access it."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My office account has been locked,",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " and I can't access it."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "There's a lock on my office account",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I am unable to access my office account as it is locked.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My account in the office is locked.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

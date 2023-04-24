@@ -1,0 +1,9 @@
+{
+  "name": "04ae096f-543e-4133-b0eb-402e42224841",
+  "displayName": "vary.dept.info",
+  "parameters": [ {
+    "id": "departments",
+    "entityType": "@departments"
+  } ],
+  "priority": 500000
+}

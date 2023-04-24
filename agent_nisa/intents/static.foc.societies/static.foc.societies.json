@@ -1,0 +1,10 @@
+{
+  "name": "c3739f51-92d6-4732-8e88-04f57dd44115",
+  "displayName": "static.foc.societies",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about societies in FOC."
+}

@@ -1,0 +1,196 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "how to contact ",
+      "auto": true
+    }, {
+      "text": "shafraz sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to get in contact with "
+    }, {
+      "text": "nethmi miss",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how to contact ",
+      "auto": true
+    }, {
+      "text": "mr. naji",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "nethmi miss",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": " email",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "pramudya sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": " mail",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Need the email address of ",
+      "auto": true
+    }, {
+      "text": "Mohamed sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I have the mail of ",
+      "auto": true
+    }, {
+      "text": "Ms. Pavithra Subhashini",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": " .",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Gayan sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s email address",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Mail of ",
+      "auto": true
+    }, {
+      "text": "pramudya sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Email of ",
+      "auto": true
+    }, {
+      "text": "Mr.Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "May I know the email address of ",
+      "auto": true
+    }, {
+      "text": "chamara sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm in need of ",
+      "auto": true
+    }, {
+      "text": "Ms. Dulanjali",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "  email address?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you please provide me with the email address of ",
+      "auto": true
+    }, {
+      "text": "Naji sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to know the email address of ",
+      "auto": true
+    }, {
+      "text": "Mr. Gayan",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": " ?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Wht is the email address of ",
+      "auto": true
+    }, {
+      "text": "nethmi miss",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the email address of ",
+      "auto": true
+    }, {
+      "text": "chamindra sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

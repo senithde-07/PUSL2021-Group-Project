@@ -1,0 +1,35 @@
+{
+  "entities": [ {
+    "value": "Y1S1",
+    "synonyms": [ "1st year 1st semester", "1st year first semester", "first year first semester", "y1s1", "Y1S1", "year 1 sem 1", "year 1 semester 1", "year one semester one" ],
+    "languageCode": "en"
+  }, {
+    "value": "Y1S2",
+    "synonyms": [ "1st ", "1st year 2nd semester", "1st year second semester", "first year second semester", "y1s2", "Y1S2", "year 1 sem 2", "year 1 semester 2", "year one semester two" ],
+    "languageCode": "en"
+  }, {
+    "value": "Y2S1",
+    "synonyms": [ "2nd year 1st semester", "2nd year first semester", "second year first semester", "y2s1", "Y2S1", "year 2 sem 1", "year 2 semester 1", "year two semester one" ],
+    "languageCode": "en"
+  }, {
+    "value": "Y2S2",
+    "synonyms": [ "2nd year 2nd semester", "2nd year second semester", "second year second semester", "y2s2", "Y2S2", "year 2 sem 2", "year 2 semester 2", "year two semester two" ],
+    "languageCode": "en"
+  }, {
+    "value": "Y3S1",
+    "synonyms": [ "3rd year 1st semester", "3rd year first semester", "third year first semester", "y3s1", "Y3S1", "year 3 sem 1", "year 3 semester 1", "year three semester one" ],
+    "languageCode": "en"
+  }, {
+    "value": "Y3S2",
+    "synonyms": [ "3rd year 2nd semester", "3rd year second semester", "third year second semester", "y3s2", "Y3S2", "year 3 sem 2", "year 3 semester 2", "year three semester two" ],
+    "languageCode": "en"
+  }, {
+    "value": "Y4S1",
+    "synonyms": [ "4th year 1st semester", "4th year first semester", "fourth year first semester", "y4s1", "Y4S1", "year 4 sem 2", "year 4 semester 1", "year four semseter one" ],
+    "languageCode": "en"
+  }, {
+    "value": "Y4S2",
+    "synonyms": [ "4th year 2nd semester", "4th year second semester", "fourth year second semester", "y4s2", "Y4S2", "year 4 semester 1", "year four semester one", "year 4 sem 2" ],
+    "languageCode": "en"
+  } ]
+}

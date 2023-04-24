@@ -1,0 +1,9 @@
+{
+  "name": "ce556406-dd22-47f1-aa9b-f9a72f80620a",
+  "displayName": "vary.society.location",
+  "parameters": [ {
+    "id": "societies",
+    "entityType": "@societies"
+  } ],
+  "priority": 500000
+}

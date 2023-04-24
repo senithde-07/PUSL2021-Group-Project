@@ -1,0 +1,6 @@
+{
+  "name": "1ca8f20f-6a5c-4b28-aa53-c08d4bc487ab",
+  "displayName": "static.submit.ec",
+  "priority": 500000,
+  "description": "This intent triggers when user asks about EC forms"
+}

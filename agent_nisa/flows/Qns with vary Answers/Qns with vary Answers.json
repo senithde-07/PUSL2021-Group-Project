@@ -1,0 +1,75 @@
+{
+  "name": "85421b35-3ed0-4b41-9181-4e4a77047a6b",
+  "displayName": "Qns with vary Answers",
+  "transitionRoutes": [ {
+    "intent": "vary.dept.head",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Dept Head",
+    "name": "917c7970-0477-4e4f-bf7a-2c49f16b1008"
+  }, {
+    "intent": "vary.dept.info",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Dept Info",
+    "name": "f8fea954-2def-4eaf-b66d-21674f95c8cf"
+  }, {
+    "intent": "vary.lecturer.info",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "lecturer info",
+    "name": "b6c05d16-0324-4e68-94e4-08c96d180638"
+  }, {
+    "intent": "vary.societies",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Society Info",
+    "name": "db1b244a-dc72-4da8-ad95-d88cd9adbf20"
+  }, {
+    "intent": "vary.lecturer.email",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Lecturer Mail",
+    "name": "f2ed1ef2-cff0-4eef-a0a2-216bf60441c9"
+  }, {
+    "intent": "vary.lecturer.info",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "lecturer info",
+    "name": "47b2e5e5-28e9-48bc-b769-cede11437ece"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "25b94957-d48e-47d1-8742-200299585437"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "1b209707-c116-4249-8bf8-55d27020f22a"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

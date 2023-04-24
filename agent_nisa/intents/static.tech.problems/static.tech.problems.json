@@ -1,0 +1,9 @@
+{
+  "name": "826935b6-926a-465f-b113-2ca59dbf2f7d",
+  "displayName": "static.tech.problems",
+  "parameters": [ {
+    "id": "general-problem",
+    "entityType": "@general-problem"
+  } ],
+  "priority": 500000
+}

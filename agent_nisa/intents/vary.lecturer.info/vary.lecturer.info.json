@@ -1,0 +1,9 @@
+{
+  "name": "11a34637-4765-486f-a2c7-7750a8905f07",
+  "displayName": "vary.lecturer.info",
+  "parameters": [ {
+    "id": "lecturer-names",
+    "entityType": "@lecturer-names"
+  } ],
+  "priority": 500000
+}

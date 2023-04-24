@@ -1,0 +1,23 @@
+{
+  "name": "4e2f9348-71f0-4089-b0e7-03e13580af11",
+  "displayName": "VC Nsbm",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The Vice Chancellor of NSBM Green University Town is Professor E.A. Weerasinghe." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "1283f3fb-0a06-435e-bfe5-2608561b8971"
+  } ]
+}

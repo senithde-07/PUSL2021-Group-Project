@@ -1,0 +1,54 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "how ",
+      "auto": true
+    }, {
+      "text": "to obtain the",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "plymouth",
+      "auto": true
+    }, {
+      "text": " id",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "where to ",
+      "auto": true
+    }, {
+      "text": "get",
+      "auto": true
+    }, {
+      "text": " the ",
+      "auto": true
+    }, {
+      "text": "plymouth",
+      "auto": true
+    }, {
+      "text": " id",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Plymouth",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "id",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

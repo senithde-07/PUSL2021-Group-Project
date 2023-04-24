@@ -1,0 +1,13 @@
+{
+  "name": "bfdb0f6d-dc28-450e-b5df-6d39804a2f25",
+  "displayName": "static.dean.foc",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about the deam of FOC."
+}

@@ -1,0 +1,172 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "who's in charge of ",
+      "auto": true
+    }, {
+      "text": "se dept",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "chief of ",
+      "auto": true
+    }, {
+      "text": "networks dept",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "head of "
+    }, {
+      "text": "system sciences dept",
+      "parameterId": "departments"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "dept head of ",
+      "auto": true
+    }, {
+      "text": "networks",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Department head of "
+    }, {
+      "text": "networks",
+      "parameterId": "departments"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Department head of "
+    }, {
+      "text": "network and security",
+      "parameterId": "departments"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who holds the position of department head for "
+    }, {
+      "text": "computer science",
+      "parameterId": "departments"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Do you know about the person who oversees the ",
+      "auto": true
+    }, {
+      "text": "system sciences department",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm looking for the name of the person who manages the ",
+      "auto": true
+    }, {
+      "text": "software engineering department",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": ". Do you know.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you tell me the name of the department head for ",
+      "auto": true
+    }, {
+      "text": "networks department",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who leads the ",
+      "auto": true
+    }, {
+      "text": "Information and Systems Sciences department",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who is the head of the ",
+      "auto": true
+    }, {
+      "text": "Computer Science and Software Engineering department",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who heads ",
+      "auto": true
+    }, {
+      "text": "Network and security department",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who is in charge of the ",
+      "auto": true
+    }, {
+      "text": "Data Science department",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

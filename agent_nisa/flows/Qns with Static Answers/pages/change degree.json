@@ -1,0 +1,23 @@
+{
+  "name": "318d2ce3-9937-40bf-86bb-98d1bc4566c5",
+  "displayName": "change degree",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "If you are looking to change the degree program you are currently enrolled in. Here are some general steps that you might follow:\n\nResearch the program you want to switch to.\n\nMeet with an academic advisor, They can help you determine if the new program is a good fit for you, and guide you through the process of switching programs.\n\nOnce you have confirmed your eligibility and have the support of your academic advisor, you can begin the application process for the new program. \n\n After you have submitted your application, be sure to follow up with the admissions office to ensure that all of your materials have been received and that your application is complete.\n\n If you are accepted into the new program, you will need to make arrangements to officially switch your enrollment from your current program to the new one." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "9484e529-c329-4349-82d1-c1764e322bb8"
+  } ]
+}

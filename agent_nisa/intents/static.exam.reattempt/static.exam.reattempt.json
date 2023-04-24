@@ -1,0 +1,10 @@
+{
+  "name": "950302de-d942-40a6-aa47-ba14eb0f55a0",
+  "displayName": "static.exam.reattempt",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about reattempting the exams."
+}

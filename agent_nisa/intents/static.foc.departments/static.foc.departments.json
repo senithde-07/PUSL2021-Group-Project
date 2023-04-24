@@ -1,0 +1,13 @@
+{
+  "name": "a080aeed-75d8-4114-af87-81b8ae651895",
+  "displayName": "static.foc.departments",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "technical-problems1",
+    "entityType": "@technical-problems"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about departments in FOC."
+}

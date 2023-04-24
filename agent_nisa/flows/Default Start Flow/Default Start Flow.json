@@ -1,0 +1,599 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi!", "Hello!", "How are you!!", "Hi! How can I help you today?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "session-intent-send",
+      "tag": "welcome"
+    },
+    "name": "51556172-460d-4bca-8040-0ea6d0d814ac"
+  }, {
+    "intent": "static.available.degrees",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "available.degrees"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "d5087003-d567-42cc-b8a9-be5341d9a65c"
+  }, {
+    "intent": "static.webhook.hall.allocation",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "hall allocation"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "f08a732b-84fe-4a88-8dbe-c998a353606e"
+  }, {
+    "intent": "vary.dept.head",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "dept head"
+    },
+    "targetFlow": "Qns with vary Answers",
+    "name": "05ff355d-4632-4ad6-9a87-6ca2b61bdf5b"
+  }, {
+    "intent": "vary.dept.info",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "dept-info"
+    },
+    "targetFlow": "Qns with vary Answers",
+    "name": "31459e0b-8bb7-4070-aaa6-adfb0a56d349"
+  }, {
+    "intent": "follow.lec.timetable",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "lec timetable"
+    },
+    "targetFlow": "Follow back Qns",
+    "name": "47bf9564-6d2a-47de-b1b5-9697910c0a93"
+  }, {
+    "intent": "prob.no.email",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "no email"
+    },
+    "targetFlow": "Problems",
+    "name": "7c3fadf0-93a5-4190-9036-46223656aeb6"
+  }, {
+    "intent": "prob.nlearn.no.access",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "no nlearn access"
+    },
+    "targetFlow": "Problems",
+    "name": "8ff9687e-b932-4369-ae98-6733e21d932c"
+  }, {
+    "intent": "static.attendance.cant.mark",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "cant mark attendance"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "81c3f680-2bb9-44fb-b867-449a74a341c2"
+  }, {
+    "intent": "static.acc.still-locked",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "acc still locked"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "a2ca255f-8640-4f8f-8c1e-39c67953eeb5"
+  }, {
+    "intent": "prob.cant-connect.wifi",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "cant connect wifi"
+    },
+    "targetFlow": "Problems",
+    "name": "29e2bc23-b3c8-4903-b8a5-59f9d282bc01"
+  }, {
+    "intent": "prob.cant.microsoft.acc",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "cant microsoft acc"
+    },
+    "targetFlow": "Problems",
+    "name": "753ec275-112a-4e62-9baa-d978778d8a1f"
+  }, {
+    "intent": "prob.dle.no.access",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "dle no access"
+    },
+    "targetFlow": "Problems",
+    "name": "98a4b946-bb0a-4db7-a70d-78ffd2117683"
+  }, {
+    "intent": "prob.forgot-pw.dle",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "dle forgot pw"
+    },
+    "targetFlow": "Problems",
+    "name": "c2108fda-b6f9-4f7a-a150-9a1fc433c196"
+  }, {
+    "intent": "prob.forgot-pw.microsoft",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "microsoft forgot pw"
+    },
+    "targetFlow": "Problems",
+    "name": "d0a3ae21-e273-414e-8e3c-f3fbd15ac883"
+  }, {
+    "intent": "prob.forgot-pw.nlearn",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "nlearn forgot pw"
+    },
+    "targetFlow": "Problems",
+    "name": "c920e4e4-36d6-4896-b928-fbfed52cb34a"
+  }, {
+    "intent": "prob.nlearn.no.access",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "no nlearn access"
+    },
+    "targetFlow": "Problems",
+    "name": "e73d8a84-0070-45f3-ac81-18379f628bb9"
+  }, {
+    "intent": "prob.office-acc.locked",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "office acc locked"
+    },
+    "targetFlow": "Problems",
+    "name": "5e40a59b-d0a7-43c7-8422-34c9e0712e47"
+  }, {
+    "intent": "prob.weak.wifi",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "weak wifi"
+    },
+    "targetFlow": "Problems",
+    "name": "2232359b-8f6b-4adc-91ff-6743ce43171e"
+  }, {
+    "intent": "vary.lecturer.info",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "lecturer info"
+    },
+    "targetFlow": "Qns with vary Answers",
+    "name": "ffadd955-e2f8-4358-929c-9234d975098e"
+  }, {
+    "intent": "prob.general",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "general prob"
+    },
+    "targetFlow": "Problems",
+    "name": "1b9324d8-b311-42c9-adff-4479775ff62f"
+  }, {
+    "intent": "id.student",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "With the id do you want me to report a problem?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "session-intent-send",
+      "tag": "id"
+    },
+    "targetFlow": "Problems",
+    "name": "88d30708-47f5-491c-9652-a2fa5c2f07ea"
+  }, {
+    "intent": "static.blame.scold",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "scold"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "4da43eaa-8dd9-4d0c-9ab9-862c5548fa6a"
+  }, {
+    "intent": "static.late.payments",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "late payments"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "9cdc8864-6362-4e59-9d30-191e6cceab64"
+  }, {
+    "intent": "vary.societies",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "socites"
+    },
+    "targetFlow": "Qns with vary Answers",
+    "name": "8d9a6658-31bb-4652-bd5b-3d9643c6e358"
+  }, {
+    "intent": "static.retake.absence.exam",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "retake exam"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "9a02d023-4a58-446f-b4c0-f41dcf16114d"
+  }, {
+    "intent": "static.plymouth.course.directer",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "course director"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "912873dd-2f1f-4eec-8765-48f18da35453"
+  }, {
+    "intent": "static.change.degree",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "change degree"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "daa43531-40aa-4f44-933f-a029e6741c66"
+  }, {
+    "intent": "static.dean.foc",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "foc dean"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "ed757d5a-964d-4b54-b84a-9d18cfe90f32"
+  }, {
+    "intent": "static.dvc.nsbm",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "dvc nsbm"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "62f6927e-dcbe-47e1-b6b3-90ef1f044685"
+  }, {
+    "intent": "static.exam.pass.rate",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "pass rate"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "8c452e14-40ed-4c14-9d62-edd686f501d4"
+  }, {
+    "intent": "static.exam.reattempt",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "re attempt exam"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "75600b71-c443-4d9d-b618-7663c4319807"
+  }, {
+    "intent": "static.exam.results.dle",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "dle exam results"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "dfb67cf7-a3ce-4769-abc7-d42e4224a406"
+  }, {
+    "intent": "static.foc.departments",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "foc departments"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "f0b5387a-04e1-4ae3-b02c-667714ae51da"
+  }, {
+    "intent": "static.foc.lecture.halls.count",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "hall count"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "c5990d46-1b86-435d-96ed-90c72e17e5ef"
+  }, {
+    "intent": "static.foc.lecturers.count",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "lecturer count"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "bd03fb21-0a7e-4a8a-8805-5bc5ff7fed8a"
+  }, {
+    "intent": "static.foc.societies",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "societies"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "6c7bb805-88e8-4fd7-b646-41325ce12b3c"
+  }, {
+    "intent": "static.free.mail.services",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "free mail services"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "7be4608a-62ed-408c-a323-47fc8d5d0810"
+  }, {
+    "intent": "static.hardest.degree",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "hardest degree"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "5f1efd08-5fa8-43a2-8591-955be816088e"
+  }, {
+    "intent": "static.is.degree.hard",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "degree hard"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "4a44d511-cd9c-4367-bd25-0229fc5fe6e4"
+  }, {
+    "intent": "static.late.payments",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "late payments"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "8d13ea90-f967-4958-be89-d36adffa7a98"
+  }, {
+    "intent": "static.nsbm.stands.for",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "nsbm stands for"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "bf856530-7b33-4e01-9edf-6d3a889b996a"
+  }, {
+    "intent": "static.other.questions",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "other questions"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "920d6b5e-4c40-46e6-a391-dc83bf6799c0"
+  }, {
+    "intent": "static.stupid.questions",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "stupid"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "e725932f-108c-452b-a5ac-1558ba2073b7"
+  }, {
+    "intent": "static.submit.ec",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "sunmit ec"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "6f33b0b7-0b2a-4205-aa27-438a67df254f"
+  }, {
+    "intent": "static.vc.nsbm",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "vc nsbm"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "87a95399-cc28-46f1-b05b-300761a6e0ed"
+  }, {
+    "intent": "static.other.questions",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "other questions"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "e34538b6-9873-4cf9-b270-9a55a6ae354e"
+  }, {
+    "intent": "vary.lecturer.email",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "lecturer mail"
+    },
+    "targetFlow": "Qns with vary Answers",
+    "name": "e9bb418d-0daf-4d34-868f-c5b1e1318c13"
+  }, {
+    "intent": "Static.lecturer.personal.detail",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "lec personal detail"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "6a58f751-db1c-443b-ad4e-fd5b2fbcdb1d"
+  }, {
+    "intent": "thanks",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No Problem!", "It was my pleasure.!", "Of course!", "Any time!", "You're most welcome!", "Happy to!", "I’m so glad it was helpful!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "session-intent-send",
+      "tag": "thanks"
+    },
+    "targetPage": "End Flow",
+    "name": "26d94c34-7367-4039-91c4-72a87d2963eb"
+  }, {
+    "intent": "static.foc.lecture.halls.count",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "lecture.hall.count"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "f988a0a0-f441-435f-91c5-38e4eee1e0ee"
+  }, {
+    "intent": "static.exam.reattempt",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "exam reattempt"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "c44000b8-0b4a-46f0-b930-24fdd15b415e"
+  }, {
+    "intent": "static.easy.degree",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "easy degree"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "ed43ec74-3d25-45ad-a741-62a840c5d794"
+  }, {
+    "intent": "static.out.of.scope",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "out of scope"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "4d666b6e-9c23-4204-9f7d-37aa06dabc0c"
+  }, {
+    "intent": "static.request.letters",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "request letters"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "dfb94659-8723-427e-a11a-6261a482af40"
+  }, {
+    "intent": "static.tech.problems",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "tech problems"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "c20c6db5-b40a-4bb7-a5ec-84a88b266dea"
+  }, {
+    "intent": "static.transcript.no.marks",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "transcript not updated"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "4bdd0ede-9506-40f9-a795-9a0526751608"
+  }, {
+    "intent": "static.exam.seat.not.received",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "exam seat not received"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "0ca4bee3-42e7-4fad-9d02-274277f0ee09"
+  }, {
+    "intent": "static.hall.book",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "hall book"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "6e7cd85c-d07e-4889-b434-acb4e2907761"
+  }, {
+    "intent": "static.nsbm.id",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "nsbm id"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "189ba7a7-fdfa-450e-b100-a96fcb1d00c5"
+  }, {
+    "intent": "static.plymouth.id",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "plymouth id"
+    },
+    "targetFlow": "Qns with Static Answers",
+    "name": "8772f7bb-4b44-4e34-9e4b-1033690e05f1"
+  }, {
+    "intent": "vary.lecture.hall.location",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "lecture hall location"
+    },
+    "targetFlow": "Qns with vary Answers",
+    "name": "30a3f270-0002-41fa-858b-a94d11e4c824"
+  }, {
+    "intent": "vary.lecturer.cabin.location",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "lecturer cabin location"
+    },
+    "targetFlow": "Qns with vary Answers",
+    "name": "4c65572f-44c3-4c7a-a32a-a12ce819172c"
+  }, {
+    "intent": "vary.society.location",
+    "triggerFulfillment": {
+      "webhook": "session-intent-send",
+      "tag": "society location"
+    },
+    "targetFlow": "Qns with vary Answers",
+    "name": "312aba2f-8f18-48c8-b0b4-b2964138b606"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2aeaf297-2918-4726-bbee-2e9896730b8f"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "71a4a97e-485e-40bc-afaf-60cef94c9fbf"
+  }, {
+    "event": "welcome",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi, I'm NISA the official chatbot of Faculty of Computing of NSBM Green University. How can I assist you today?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Daily Hall Alocation"
+            }, {
+              "text": "My Timetable"
+            }, {
+              "text": "Report a problem"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "91fe6d72-4636-4a27-911b-0a1e96183b26"
+  }, {
+    "event": "sys.no-match-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I am sorry. I can't help you with that!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "4db008b5-d79b-4d74-b6e1-572540601003"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

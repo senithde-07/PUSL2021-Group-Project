@@ -1,0 +1,23 @@
+{
+  "name": "20607ade-2dd7-41d4-b00e-dc97b1886b30",
+  "displayName": "Exam seat not received",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "If you didn't receive exam seating or the admission, Contact the examination department immediately!" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "316e52ac-1c95-4e3d-a3b8-8dc28bfa1334"
+  } ]
+}

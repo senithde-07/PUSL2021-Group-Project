@@ -1,0 +1,10 @@
+{
+  "name": "f48b7198-d7fd-4e3f-9970-a3917a0f7a86",
+  "displayName": "lecture-timetable",
+  "genericWebService": {
+    "uri": "https://asia-south1-university-chatbot-381515.cloudfunctions.net/lecture-timetable"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "de5432f4-c51c-44d0-a720-f8a111d50527",
+  "displayName": "prob.general",
+  "parameters": [ {
+    "id": "general-problem",
+    "entityType": "@general-problem"
+  } ],
+  "priority": 500000,
+  "description": "Triggers when user simply says i have a problem"
+}

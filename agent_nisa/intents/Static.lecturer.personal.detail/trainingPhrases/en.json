@@ -1,0 +1,429 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "personal info of ",
+      "auto": true
+    }, {
+      "text": "pramudya sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "pramudyas",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": " tel",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s mobile ",
+      "auto": true
+    }, {
+      "text": "no",
+      "parameterId": "yes-no",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Phone number of ",
+      "auto": true
+    }, {
+      "text": "pramudya sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s phone number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm ",
+      "auto": true
+    }, {
+      "text": "trying to",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " reach ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": ", do you know their phone number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you kindly share ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s phone number with me?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is it possible to",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " get ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s phone number from you?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "May I ask for ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s phone number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need to contact ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": ", could you please provide me with their phone number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Would you be",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " able to give me ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s phone number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Do you happen to know ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s phone number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I have ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s phone number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lecturer contact number",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "No",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " of ",
+      "auto": true
+    }, {
+      "text": "Pramudya sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Pramudya sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s contact number",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Contact number of lecturer ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Do you know how I can contact ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "May I have ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s phone number",
+      "auto": true
+    }, {
+      "text": "? I need to",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " speak with them.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Would it ",
+      "auto": true
+    }, {
+      "text": "be possible to",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " share ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s contact number with me?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm looking for ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s contact information",
+      "auto": true
+    }, {
+      "text": ", would you",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " happen to have their phone number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you give me ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s contact number please?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you pass along ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s phone number ",
+      "auto": true
+    }, {
+      "text": "so I can get in",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " touch ",
+      "auto": true
+    }, {
+      "text": "with them?",
+      "parameterId": "technical-problems1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I would like to",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " reach out to ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": ", may I have their contact details?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Do ",
+      "auto": true
+    }, {
+      "text": "you have",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s phone number",
+      "auto": true
+    }, {
+      "text": "? I would like to",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": " contact them.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need to get in touch with ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": ", could you provide me with their contact number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you share ",
+      "auto": true
+    }, {
+      "text": "Pramudya",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "'s phone number with me?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

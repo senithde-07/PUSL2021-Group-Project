@@ -1,0 +1,144 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Challenging degree",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can i know the most complex degree",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Worst degree",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the hardest degree",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What degree program do you believe ",
+      "auto": true
+    }, {
+      "text": "requires the",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " highest level of proficiency ",
+      "auto": true
+    }, {
+      "text": "in its subject",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " matter?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Which course of study do you think ",
+      "auto": true
+    }, {
+      "text": "requires the",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " most time and effort?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What degree path ",
+      "auto": true
+    }, {
+      "text": "would you",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " say is the most intellectually challenging?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What field of study is reputed to have the toughest curriculum?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Which degree program do you consider to be the most demanding?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What major do you think has the highest level of academic rigor?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you suggest a",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " degree program that is notoriously ",
+      "auto": true
+    }, {
+      "text": "difficult?",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What degree ",
+      "auto": true
+    }, {
+      "text": "requires the",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " most amount of work and dedication to complete?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "In your opinion, what is the most difficult degree to earn?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Which degree program is known to be the most challenging?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

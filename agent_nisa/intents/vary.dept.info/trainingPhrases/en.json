@@ -1,0 +1,132 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "info on ",
+      "auto": true
+    }, {
+      "text": "networks dept",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "tell me about "
+    }, {
+      "text": "cs",
+      "parameterId": "departments"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "system sciences",
+      "parameterId": "departments"
+    }, {
+      "text": " deot"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "deot of "
+    }, {
+      "text": "cn",
+      "parameterId": "departments"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can i know about department of ",
+      "auto": true
+    }, {
+      "text": "networks",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "dept of ",
+      "auto": true
+    }, {
+      "text": "se",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "dept of ",
+      "auto": true
+    }, {
+      "text": "security",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Tell me about the ",
+      "auto": true
+    }, {
+      "text": "Department of Information and Systems Sciences",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Department of Computer Science and Software Engineering",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you describe about ",
+      "auto": true
+    }, {
+      "text": "computer science department",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What can you tell me about the ",
+      "auto": true
+    }, {
+      "text": "software engineering department",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you provide some information about the ",
+      "auto": true
+    }, {
+      "text": "department of network and security",
+      "parameterId": "departments",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

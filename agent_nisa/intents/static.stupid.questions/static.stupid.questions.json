@@ -1,0 +1,6 @@
+{
+  "name": "507dd096-c933-40c6-b76c-444bddf5db56",
+  "displayName": "static.stupid.questions",
+  "priority": 500000,
+  "description": "This intent triggers when user asks stupid questions."
+}

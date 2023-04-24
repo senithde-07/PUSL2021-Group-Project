@@ -1,0 +1,23 @@
+{
+  "name": "9c780b0f-db47-4625-a1b1-db44bd66ca27",
+  "displayName": "Plymouth ID",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Visit the Plymouth course secretary in ground floor to get information about plymouth ID or to obtain it" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "d70d6e0b-0932-45b0-afe7-c3f9850260cb"
+  } ]
+}

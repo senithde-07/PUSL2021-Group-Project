@@ -1,0 +1,13 @@
+{
+  "name": "e1be3770-72db-4f06-896f-29d3aaafd8e6",
+  "displayName": "prob.no.exam.result",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "When user says no exam results"
+}

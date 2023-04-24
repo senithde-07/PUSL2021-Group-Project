@@ -1,0 +1,6 @@
+{
+  "name": "606788c6-5052-4745-981e-b1a7794170dc",
+  "displayName": "static.exam.results.dle",
+  "priority": 500000,
+  "description": "This intent triggers when user asks about checking exam results in dle."
+}

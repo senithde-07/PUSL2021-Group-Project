@@ -1,0 +1,351 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Pass rate of ",
+      "auto": true
+    }, {
+      "text": "students",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the success rate of ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " in terms of the number of ",
+      "auto": true
+    }, {
+      "text": "students",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": " who pass?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you tell me the number or percentage of ",
+      "auto": true
+    }, {
+      "text": "students",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " who pass ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What's the ratio of ",
+      "auto": true
+    }, {
+      "text": "students",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " who pass to those who ",
+      "auto": true
+    }, {
+      "text": "fail the",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": " exam?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What proportion of ",
+      "auto": true
+    }, {
+      "text": "students",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " successfully complete ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How many ",
+      "auto": true
+    }, {
+      "text": "students",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " pass ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": " out of ",
+      "auto": true
+    }, {
+      "text": "100",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the pass rate for ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What's the percentage of ",
+      "auto": true
+    }, {
+      "text": "students",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " who pass ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How many people pass ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " on average?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you tell me the success rate for ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What percentage of ",
+      "auto": true
+    }, {
+      "text": "students",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " typically pass ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " pass rate",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the passing rate of ",
+      "auto": true
+    }, {
+      "text": "exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you provide information on the pass rate for ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the percentage of ",
+      "auto": true
+    }, {
+      "text": "students",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " who pass ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": " on their ",
+      "auto": true
+    }, {
+      "text": "first",
+      "parameterId": "ordinal",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "attempt",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the proportion of successful candidates in ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How many ",
+      "auto": true
+    }, {
+      "text": "students",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " typically pass ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the success rate of ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What percentage of ",
+      "auto": true
+    }, {
+      "text": "students",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " pass ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems1",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

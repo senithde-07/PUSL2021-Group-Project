@@ -1,0 +1,164 @@
+{
+  "name": "fc728c6e-a4ac-42c9-b3f9-5002062ea4de",
+  "displayName": "microsoft acc locked",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hi"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Hi, I'm NISA the official chatbot of Faculty of Computing of NSBM Green University. How can I assist you today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/university-chatbot-381515/locations/global/agents/8fb3e38c-a89e-4a27-85a1-d3e5a6db3109/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "i have a problem"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "general-problem": "problem"
+      },
+      "triggeredIntent": {
+        "name": "prob.general"
+      },
+      "currentPage": {
+        "name": "Asking the Prob",
+        "flow": "Problems"
+      },
+      "textResponses": [ {
+        "text": [ "What might be your problem?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/university-chatbot-381515/locations/global/agents/8fb3e38c-a89e-4a27-85a1-d3e5a6db3109/flows/3f02b645-e974-48f6-8d9b-6504a9a7302c",
+        "displayName": "Problems"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "microsoft account got locked"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "general-problem": "problem",
+        "technical-problems": "Office account got locked"
+      },
+      "triggeredIntent": {
+        "name": "prob.weak.wifi"
+      },
+      "currentPage": {
+        "name": "Y/N",
+        "flow": "Problems"
+      },
+      "textResponses": [ {
+        "text": [ "If your Microsoft account provided by your university gets locked, you can try the following steps to regain access:" ]
+      }, {
+        "text": [ "Wait for a few minutes" ]
+      }, {
+        "text": [ "Reset your password  by clicking on the \"forgot password\" link on the login page" ]
+      }, {
+        "text": [ "If none of the above methods work, you can contact your university's IT support team for assistance." ]
+      }, {
+        "text": [ "It's essential to ensure that you are adhering to the university's policies and guidelines while using their provided Microsoft account to avoid getting locked out." ]
+      }, {
+        "text": [ "Do you need me to make a complaint about this?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/university-chatbot-381515/locations/global/agents/8fb3e38c-a89e-4a27-85a1-d3e5a6db3109/flows/3f02b645-e974-48f6-8d9b-6504a9a7302c",
+        "displayName": "Problems"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "general-problem": "problem",
+        "technical-problems": "Office account got locked",
+        "yes-no": "yes"
+      },
+      "currentPage": {
+        "name": "Get Problem-W",
+        "flow": "Problems"
+      },
+      "textResponses": [ {
+        "text": [ "Can you please tell me your NSBM Student ID?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/university-chatbot-381515/locations/global/agents/8fb3e38c-a89e-4a27-85a1-d3e5a6db3109/flows/3f02b645-e974-48f6-8d9b-6504a9a7302c",
+        "displayName": "Problems"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "21346"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "general-problem": "problem",
+        "student-id": "21346",
+        "technical-problems": "Office account got locked",
+        "yes-no": "yes"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Student ID- 21346\nProblem- Office account got locked\n Noted!" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/university-chatbot-381515/locations/global/agents/8fb3e38c-a89e-4a27-85a1-d3e5a6db3109/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1681558178,
+    "nanos": 666697000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow"
+  }
+}

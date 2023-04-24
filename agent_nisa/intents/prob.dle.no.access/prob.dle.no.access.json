@@ -1,0 +1,13 @@
+{
+  "name": "56b41ea9-8ab4-4cfe-b722-f8db3e7ace57",
+  "displayName": "prob.dle.no.access",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "Triggers when user says no access to DLE"
+}

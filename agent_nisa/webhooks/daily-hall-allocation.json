@@ -1,0 +1,10 @@
+{
+  "name": "213f48d6-9587-4357-b7b4-0efa01ea1639",
+  "displayName": "daily-hall-allocation",
+  "genericWebService": {
+    "uri": "https://asia-south1-university-chatbot-381515.cloudfunctions.net/daily-hall-allocation"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

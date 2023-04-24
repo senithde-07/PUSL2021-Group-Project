@@ -1,0 +1,10 @@
+{
+  "name": "c1376924-0b99-43a9-bea2-0de32ccfb7e7",
+  "displayName": "static.hardest.degree",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about hardest degree."
+}

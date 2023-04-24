@@ -1,0 +1,149 @@
+{
+  "name": "1061f6be-fcc9-4662-b464-5a37cdcd194b",
+  "displayName": "lecturer info",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "conditionalCases": [ {
+      "cases": [ {
+        "condition": "$session.params.lecturer-names = \"pramudya\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Mr. Pramudya Thilakarathne serves as a lecturer and department head of Data Science." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"nethmi\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Ms. Nethmi Weerasingha is a lecturer in the Department of Data Science." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"chamindra\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Mr. Chamindra Attanayake serves as a senior lecturer and department head of Network and Security." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"chamara\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Mr. Chamara Disanayake  is a  Senior lecturer in the department of Network and Security." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"Dilhara\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Mr. Dilhara Batan Arachchige   is a lecturer in the department of Network and Security." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"Isuru\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Mr. Isuru Sri Bandara  is a lecturer in the department of Network and Security." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"pavithra\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Ms. Pavithra Subhashini  serves as a senior lecturer and department head of Computer Science and Software Engineering." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"gayan\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Mr. Gayan Perera  is a lecturer in the department of Computer Science and Software Engineering." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"dulanjali\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Ms. Dulanjali Wijesekara is a lecturer in the department of Computer Science and Software Engineering." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"shafraz\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Mr. Mohamed Shafraz serves as a senior lecturer and department head of Information and Systems Sciences." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"Naji\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Mr. Naji Saravanabavan is a Senior lecturer in the department of Information and Systems Sciences." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.lecturer-names = \"chalani\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Ms. Chalani Oruthotaarachchi is a Senior lecturer in the department of Information and Systems Sciences." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "I'm sorry, there's no lecturer attached to FOC NSBM with that name!." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      } ]
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "344cf57d-3fff-4de4-94f3-b597299380c4"
+  } ]
+}

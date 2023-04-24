@@ -1,0 +1,13 @@
+{
+  "name": "24e2e1bd-34af-4940-8d33-a02351df8f81",
+  "displayName": "prob.cant-connect.wifi",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "Triggers when user says cant connect to wifi"
+}

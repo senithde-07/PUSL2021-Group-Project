@@ -1,0 +1,51 @@
+{
+  "name": "80f2ebdf-791b-4a77-9d13-e10f809f5533",
+  "displayName": "Y/N",
+  "form": {
+    "parameters": [ {
+      "displayName": "yes-no",
+      "required": true,
+      "entityType": "@yes-no",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "Not for now"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.yes-no = \"yes\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Problem-W",
+    "name": "85acc70c-121c-4d6e-872e-dd39cadf28fa"
+  }, {
+    "condition": "$session.params.yes-no = \"no\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Have a nice day!!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "1246bdb6-ab91-4792-b4ab-37a528fc6fa0"
+  } ]
+}

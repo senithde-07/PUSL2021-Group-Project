@@ -1,0 +1,10 @@
+{
+  "name": "87a305c2-a874-46b4-b677-8cdff4b9c4b6",
+  "displayName": "vary.lecturer.email",
+  "parameters": [ {
+    "id": "lecturer-names",
+    "entityType": "@lecturer-names"
+  } ],
+  "priority": 500000,
+  "description": "Lecturer email"
+}

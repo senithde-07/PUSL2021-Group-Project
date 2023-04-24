@@ -1,0 +1,69 @@
+{
+  "name": "27452751-98b4-4ed4-b8be-080d167872e0",
+  "displayName": "Dept Head",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "conditionalCases": [ {
+      "cases": [ {
+        "condition": "$session.params.departments = \"Department of Data Science\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "The head of Department of Data Science is Mr. Pramudya Thilakarathne" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.departments = \"Department of Network and Security\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "The head of Department of Network and Security is Mr. Chamindra Attanayake" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.departments = \"Department of Information and Systems Sciences\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "The head of Department of Information and Systems Sciences is Mr. Mohamed Shafraz" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.departments = \"Department of Computer Science and Software Engineering\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "The head of Department of Computer Science and Software Engineering is Ms. Pavithra Subhashini" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "There is no such department! Sorry for the \t     inconvinience." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      } ]
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "3f627425-32d4-4d92-bf70-4f56990c2857"
+  } ]
+}

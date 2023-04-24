@@ -1,0 +1,10 @@
+{
+  "name": "20be0261-2880-441e-ac76-a312d8366708",
+  "displayName": "static.vc.nsbm",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about VC of NSBM."
+}

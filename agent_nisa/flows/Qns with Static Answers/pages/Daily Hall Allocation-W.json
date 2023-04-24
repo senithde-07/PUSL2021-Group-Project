@@ -1,0 +1,46 @@
+{
+  "name": "88e612ba-601d-474a-a36e-63f994120ff8",
+  "displayName": "Daily Hall Allocation-W",
+  "form": {
+    "parameters": [ {
+      "displayName": "date-time",
+      "required": true,
+      "entityType": "@sys.date-time",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Can I Know the date?" ]
+            },
+            "languageCode": "en"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "Daily Hall Allocation-W",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "Please provide me with an date" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "48d7c413-8d1f-4437-a43a-8e21222b9e8a"
+        } ]
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "webhook": "daily-hall-allocation",
+      "tag": "hall"
+    },
+    "targetPage": "End Flow",
+    "name": "5e6a29f9-7c55-45a6-817d-1a195c7bbfb5"
+  } ]
+}

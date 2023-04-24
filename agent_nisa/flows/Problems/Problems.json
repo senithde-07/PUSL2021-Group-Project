@@ -1,0 +1,138 @@
+{
+  "name": "3f02b645-e974-48f6-8d9b-6504a9a7302c",
+  "displayName": "Problems",
+  "transitionRoutes": [ {
+    "intent": "prob.no.email",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "f70ec5de-4813-4c68-a0f6-3eb9e8d6fade"
+  }, {
+    "intent": "static.acc.still-locked",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "508beb72-f7e2-4e8f-a816-63c6872cdaa6"
+  }, {
+    "intent": "static.attendance.cant.mark",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "e1b5346a-beb5-46ad-bcb7-e14d6b4bde4b"
+  }, {
+    "intent": "prob.cant-connect.wifi",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "3aba48ff-5f50-4f35-b6cd-815c335e331e"
+  }, {
+    "intent": "prob.cant.microsoft.acc",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "ebe6975d-5bef-451c-9006-137049b9b670"
+  }, {
+    "intent": "prob.dle.no.access",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "dfdcbc53-fb46-471f-8095-e650d41ca77d"
+  }, {
+    "intent": "prob.forgot-pw.dle",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "894e1673-0cce-4db9-9129-3c3c10be7fcb"
+  }, {
+    "intent": "prob.forgot-pw.microsoft",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "d4a2dc3d-bd1b-4998-afb2-e6ee5f95cd18"
+  }, {
+    "intent": "prob.forgot-pw.nlearn",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "ddbcdfdd-1684-452b-85e4-f847dae0bd4c"
+  }, {
+    "intent": "prob.nlearn.no.access",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "bd82c60e-d284-4f4c-abc7-be49b311c5f9"
+  }, {
+    "intent": "prob.no.exam.result",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "ca932e5e-8182-4cf9-9177-af1977445bfc"
+  }, {
+    "intent": "prob.office-acc.locked",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "04a71932-4ca6-4bbd-9255-9e3992b7e1a3"
+  }, {
+    "intent": "prob.weak.wifi",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "7019c529-0ffa-45f4-9f36-20cc16bcf4d3"
+  }, {
+    "intent": "prob.general",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Asking the Prob",
+    "name": "6031b7a9-a82a-4961-aeb9-eec8a83b4fe8"
+  }, {
+    "intent": "id.student",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Asking the Prob",
+    "name": "354d0859-9c2c-4b89-b04c-a34dca25f006"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "17bdaa37-93a7-480b-bdc9-8e3e390573ad"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "0948b557-0e60-4e88-88c4-613f81a94081"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

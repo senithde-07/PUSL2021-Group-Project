@@ -1,0 +1,13 @@
+{
+  "name": "f439da9c-fe5e-427b-81b4-cfc113b05358",
+  "displayName": "prob.forgot-pw.nlearn",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "When users forgot Nlearn pw"
+}

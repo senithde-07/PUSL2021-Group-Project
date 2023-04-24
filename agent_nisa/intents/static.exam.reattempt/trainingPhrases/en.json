@@ -1,0 +1,642 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "how to "
+    }, {
+      "text": "repeat",
+      "parameterId": "technical-problems"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want to "
+    }, {
+      "text": "repeat a exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the consequences of failing ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What happens if ",
+      "auto": true
+    }, {
+      "text": "I don't",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " pass ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "If I fail ",
+      "auto": true
+    }, {
+      "text": "the exam, what are the",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " next steps?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you explain what happens if ",
+      "auto": true
+    }, {
+      "text": "I don't",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " succeed in ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the outcome if I ",
+      "auto": true
+    }, {
+      "text": "fail the",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " exam?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "If I am ",
+      "auto": true
+    }, {
+      "text": "unsuccessful",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " in ",
+      "auto": true
+    }, {
+      "text": "the exam, what",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " will happen?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "If ",
+      "auto": true
+    }, {
+      "text": "I don't",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " pass ",
+      "auto": true
+    }, {
+      "text": "the exam, what can I",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " expect?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the implications of not passing ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Fail an ",
+      "auto": true
+    }, {
+      "text": "exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " failure",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What can i do if ",
+      "auto": true
+    }, {
+      "text": "i was",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " unable to pass ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Didn't",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " pass ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lesser ",
+      "auto": true
+    }, {
+      "text": "marks",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " in ",
+      "auto": true
+    }, {
+      "text": "exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What ",
+      "auto": true
+    }, {
+      "text": "is the cost of a",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " repeat ",
+      "auto": true
+    }, {
+      "text": "exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the price for ",
+      "auto": true
+    }, {
+      "text": "taking the",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " exam again?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you please tell me ",
+      "auto": true
+    }, {
+      "text": "the fee",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " for a repeat ",
+      "auto": true
+    }, {
+      "text": "exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What ",
+      "auto": true
+    }, {
+      "text": "is the fee",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " structure for ",
+      "auto": true
+    }, {
+      "text": "taking the",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " exam again?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you provide me with information on ",
+      "auto": true
+    }, {
+      "text": "the payment",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "required for a",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " repeat ",
+      "auto": true
+    }, {
+      "text": "exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How much to pay for an retake",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Payment made",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " for a repeat ",
+      "auto": true
+    }, {
+      "text": "exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to know the price i should to pay to repeat a ",
+      "auto": true
+    }, {
+      "text": "exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Amount to pay for a retake",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Retake ",
+      "auto": true
+    }, {
+      "text": "exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "payment",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How ",
+      "auto": true
+    }, {
+      "text": "to do exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " again",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How to face an ",
+      "auto": true
+    }, {
+      "text": "exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " again",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Procedure to follow ",
+      "auto": true
+    }, {
+      "text": "to exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " retake again.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " reattempt.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Redo an ",
+      "auto": true
+    }, {
+      "text": "exam.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " redo.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Process",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " to reattempt an ",
+      "auto": true
+    }, {
+      "text": "exam.",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you explain how I can retry ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How do I ",
+      "auto": true
+    }, {
+      "text": "register",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " for ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " retake?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "May I know ",
+      "auto": true
+    }, {
+      "text": "the process",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " of reappearing for ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the policy for reattempting ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Am I allowed ",
+      "auto": true
+    }, {
+      "text": "to take the",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " exam one more time?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the steps I need to follow to retake ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " one more time?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is there a chance for me to resit ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I sit for ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " again?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the procedure for ",
+      "auto": true
+    }, {
+      "text": "taking the",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " exam again?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How can I retake ",
+      "auto": true
+    }, {
+      "text": "the exam",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " again?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

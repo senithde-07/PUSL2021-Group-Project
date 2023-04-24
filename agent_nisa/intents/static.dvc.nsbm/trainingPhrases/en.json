@@ -1,0 +1,112 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "NSBM DVC",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can i know about deputy vice chancellor of NSBM",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "DVC of NSBM",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm wondering who is in charge of the position of Deputy Vice-Chancellor at NSBM.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who is occupying the position of DVC at NSBM?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you provide me with the name of the person serving as DVC at NSBM?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "May I ask who is the Deputy Vice-Chancellor of NSBM?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who is responsible for the role of DVC at NSBM?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Would you",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " happen to know who the Deputy Vice-Chancellor of NSBM is?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm curious to know the name of the DVC at ",
+      "auto": true
+    }, {
+      "text": "NSBM. Can",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " you help?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who ",
+      "auto": true
+    }, {
+      "text": "is currently",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " serving as the DVC at NSBM?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you tell me who the DVC of NSBM is?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who holds the position of DVC at NSBM?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

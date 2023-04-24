@@ -1,0 +1,113 @@
+{
+  "name": "dbc22487-eb55-4dc8-85b2-ac526cac9e99",
+  "displayName": "Lec Timetable-W",
+  "form": {
+    "parameters": [ {
+      "displayName": "batch",
+      "required": true,
+      "entityType": "@batch",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is your batch?" ]
+            },
+            "languageCode": "en"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "Lec Timetable-W",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I did'nt get that. Please enter your batch number in the following format\nEx: 22.3" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "633255dc-cf21-40c3-b1fb-9c3a5184247e"
+        } ]
+      }
+    }, {
+      "displayName": "degree-offerer",
+      "required": true,
+      "entityType": "@degree-offerer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Can I know your affiliated University?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "UGC"
+                }, {
+                  "text": "Plymouth"
+                }, {
+                  "text": "Victoria"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "Lec Timetable-W",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I did'nt quite get that. What is your affiliated University\nIf you are an UGC student, simply type UGC" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "70ae205c-d24e-46d2-a12a-38157b9349bf"
+        } ]
+      }
+    }, {
+      "displayName": "semesters",
+      "required": true,
+      "entityType": "@semesters",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is your onging semester" ]
+            },
+            "languageCode": "en"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "Can you tell me your semester with your current year\nEx- y1s1 or year 1 semester 1" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "d4f12489-a629-403e-a8e8-18866fb4cec1"
+        } ]
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "webhook": "lecture-timetable",
+      "tag": "timetable"
+    },
+    "targetPage": "End Flow",
+    "name": "1bbf3a34-2a17-4e76-bb28-e2c41d350d04"
+  } ]
+}

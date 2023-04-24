@@ -1,0 +1,23 @@
+{
+  "name": "4fb5921d-fabd-4a8f-a9dc-0010ab85b1a4",
+  "displayName": "Foc departments",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Available departments in the Faculty of computing are:\n\n1. Department of Network and Security\n2. Department of Data Science\n3. Department of Computer Science and Software Engineering\n4. Department of Information and Systems Sciences" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "d9578e58-0923-4822-8693-e1582078f588"
+  } ]
+}

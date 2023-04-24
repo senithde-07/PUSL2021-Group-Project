@@ -1,0 +1,46 @@
+{
+  "name": "bcd24f74-d5a1-4719-af2b-ac361cdb0177",
+  "displayName": "Follow back Qns",
+  "transitionRoutes": [ {
+    "intent": "follow.lec.timetable",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Lec Timetable-W",
+    "name": "4464f44e-22e4-4bb1-a1d3-64ba77f6334e"
+  }, {
+    "intent": "test",
+    "triggerFulfillment": {
+    
+    },
+    "name": "08e93446-32b3-4f8e-b863-b86fc56bd985"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "82857d7f-da66-4d2d-ad55-d2d5500e3f58"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "662f1389-9095-4bf5-8575-115b90caa007"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

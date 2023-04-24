@@ -1,0 +1,13 @@
+{
+  "name": "1d31cc0e-e94c-4bb2-93fc-e4556be2c0fb",
+  "displayName": "prob.forgot-pw.dle",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "When users forget dle password"
+}

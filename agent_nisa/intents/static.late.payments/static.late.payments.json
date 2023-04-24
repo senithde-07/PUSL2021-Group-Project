@@ -1,0 +1,6 @@
+{
+  "name": "117854c3-8a00-4591-ba9a-e282ac42a0c0",
+  "displayName": "static.late.payments",
+  "priority": 500000,
+  "description": "This intent triggers when user asks about late payments"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "d06fd1b7-d4b6-4054-98a0-3940adbaee85",
+  "displayName": "static.acc.still-locked",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000
+}

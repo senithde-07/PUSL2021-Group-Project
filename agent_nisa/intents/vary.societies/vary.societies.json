@@ -1,0 +1,10 @@
+{
+  "name": "8a78adce-0b9d-4200-8aa2-53135ca2b2c1",
+  "displayName": "vary.societies",
+  "parameters": [ {
+    "id": "societies",
+    "entityType": "@societies"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about IEEE."
+}

@@ -1,0 +1,23 @@
+{
+  "name": "5c578618-bfde-4dcf-a818-a71f862e5dbb",
+  "displayName": "hardest degree",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Generally, the hardest degree in FOC could be Computer Science, as it requires a solid foundation in mathematics, problem-solving, critical thinking, and programming skills.\n\nComputer Science programs typically cover a wide range of topics, including algorithms, data structures, programming languages, computer architecture, operating systems, database management, artificial intelligence, and machine learning. These courses can be challenging, and they require a lot of dedication, focus, and practice to master.\n\nOther degrees in FOC can also be challenging, as they also require a strong background in mathematics and computer science concepts. However, the difficulty of each degree program can vary depending on the individual's strengths and interests." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "9bad0d67-038e-40af-8fb5-1e0b151a374e"
+  } ]
+}

@@ -1,0 +1,690 @@
+{
+  "name": "d456b4f0-f12e-41fc-9f6a-630f76d76bfd",
+  "displayName": "Temp Solution",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "conditionalCases": [ {
+      "cases": [ {
+        "condition": "$session.params.technical-problems = \"A module missing in Nlearn\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "If a module is missing in a Nlearn, the first step would be to identify which module is missing and why it is not present." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Please Double-check that the module is actually missing and attempt to logout and login again to verify whether the issue has been resolved." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "In case if the issue remains unresolved, Contact the instructor or the support team to report the issue and ask for assistance." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Can’t access Nlearn\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "I'm sorry to hear that you're having trouble accessing the LMS. Here are some possible solutions:" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Make sure that you have a stable internet connection and that you are connected to the network." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Clear your browser cache." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Check if LMS is down." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Please check whether you have made all semester payments up to date because if not, your account may be locked." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "In case if the issue remains unresolved, Contact the support team to report the issue." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Can’t access DLE\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "I'm sorry to hear that you're having trouble accessing the DLE. Here are some possible solutions:" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Make sure that you have a stable internet connection and that you are connected to the network." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Clear your browser cache." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Check if DLE is down." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Please check whether you have made all semester payments up to date because if not, your account may be locked." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "In case if the issue remains unresolved, Contact the support team and ask for assistance." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Can’t connect to the Wi-Fi network\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "If you're having trouble connecting to a Wi-Fi network, here are a few things you can try:" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Make sure you're within range of the Wi-Fi network and that it is turned on." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Make sure that you have the correct Wi-Fi network name and password for the university network." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Restart your device and try connecting again." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Try forgetting the Wi-Fi network on your device and then reconnecting to it." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Disable and re-enable Wi-Fi on your device." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Update your device's software and/or Wi-Fi drivers." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Reset your device's network settings and try connecting again." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Try connecting to the university's Wi-Fi network from another device to see if the issue is with your device or the network." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Check if the university's Wi-Fi network is down or if there are any scheduled maintenance activities." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "In case if the issue remains unresolved,contact the university's IT support team for further assistance." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Won’t receive emails\\.\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "I'm sorry to hear that you're experiencing issues with receiving emails. Here are some troubleshooting steps that might help:" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Check your spam/junk folder" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Check whether your email storage is full" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Check your email settings" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Please check whether you have made all fee payments up to date because if not, your account may be locked." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "If none of the above solutions work, it's possible that there may be an issue with your email account" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Exam results not received\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "If you are waiting for exam results and have not received them via email, here are some steps you can take:" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Contact the organization that administered the exam" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Be patient because Sometimes exam results can take longer than expected to be released." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Cannot log into microsoft account\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "If you are unable to log into your Microsoft account, there are several steps you can take to troubleshoot the issue:" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Double-check your login credentials" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Check your internet connection" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Try logging in from a different browser or a device because this can help you determine if the issue is with your device or your account." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "If none of the above solutions work, it's possible that there may be an issue with your email account" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Office account got locked\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "If your Microsoft account provided by your university gets locked, you can try the following steps to regain access:" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Wait for a few minutes" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Reset your password  by clicking on the \"forgot password\" link on the login page" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "If none of the above methods work, you can contact your university's IT support team for assistance." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "It's essential to ensure that you are adhering to the university's policies and guidelines while using their provided Microsoft account to avoid getting locked out." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Forgot the passwords of the Nlearn\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "If you have forgotten your Nlearn password,Could you please check the email that was sent earlier containing the login information and try with the password." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "If the above method won't work, you can contact your university's IT support team for assistance." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Forgot the passwords of the DLE\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "If you have forgotten your DLE password, there are several steps you can take to recover it:" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Reset your password through the DLE login page" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "check the email that was sent earlier containing the login information and try with the password." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "If you are unable to reset your password through the login page, contact your system administrator" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Forgot microsoft account password\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Reset your password through the  login page" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "check the email that was sent earlier containing the login information and try with the password." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "If you are unable to reset your password through the login page, contact your system administrator" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Attendance cannot be marked\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "If you are having trouble marking your attendance, there are a few possible reasons why:" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "MAy be technical issues with the attendance system or the device you are using to access it. Try logging out and logging back in, or try using a different device." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Poor internet connectivity can sometimes prevent the attendance system from loading properly.Try reconnecting." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Make sure you are using the correct login credentials, including your username and password." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Attendance system is only available during certain hours, make sure you are trying to access it during those hours." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "If none of these solutions work, you may need to reach out to your instructor or the IT support team for further assistance." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Payment was made but the account is still not unlocked\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "NOTE: Once your payment has been processed, it will undergo a verification process that will take up to two working days." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "If you have made a payment but your account is still not unlocked, here are some possible reasons and solutions:" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Delay in processing: Sometimes, it may take some time for the payment to be processed and reflected in your account. Wait for a few hours and check again." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "May be technical issues causing the delay. Try logging out and logging back in or clearing your browser's cache and cookies." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Verify your payment details: Make sure that you have provided the correct payment details, including the correct amount and reference number." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "If the payment has been processed before several days , but your account is still not unlocked, contact customer support service. They will be able to investigate the issue and help you resolve it." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.technical-problems = \"Wifi signal problems\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "Here are some troubleshooting steps that might help:" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Ensure that your device is connected to the correct WiFi network and that it is within range of the wireless access point." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "If you are in a crowded area or a specific area where the WiFi signal is weak, try moving to a different location that is closer to the access point." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Reset the network" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Check for network congestion." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Make sure your device's software and drivers are up to date. An outdated driver can cause connectivity issues." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "If none of the above solutions work, contact your university's IT support team for assistance. They may be able to troubleshoot the issue or suggest alternative solutions." ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "Do you need me to make a complaint about this?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.general-problem = \"problem\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "What may your problem be?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "I am unable to find a solution to this problem. Please reach out to a member of the support team for assistance. Sorry for the inconvineince!!" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      } ]
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Y/N",
+    "name": "d1c7db22-c001-4474-ba41-40b650f25219"
+  } ]
+}

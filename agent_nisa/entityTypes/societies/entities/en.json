@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "IEEE",
+    "synonyms": [ "ieee", "IEEE", "ieee nsbm", "ieee society", "Institute of electrical and electronics engineers" ],
+    "languageCode": "en"
+  }, {
+    "value": "FOSS",
+    "synonyms": [ "FOSS", "FOSS nsbm", "foss society", "Free and open-source software" ],
+    "languageCode": "en"
+  }, {
+    "value": "ISACA",
+    "synonyms": [ "Information Systems Audit and Control Association", "ISACA", "ISACA nsbm", "isaca society" ],
+    "languageCode": "en"
+  }, {
+    "value": "Innovators club",
+    "synonyms": [ "innovator's club nsbm", "Innovators club", "innovators club society" ],
+    "languageCode": "en"
+  } ]
+}

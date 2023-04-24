@@ -1,0 +1,107 @@
+{
+  "name": "252d4230-27e7-4241-81ca-41493fe1ba74",
+  "displayName": "Asking the Prob",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "What might be your problem?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "static.acc.still-locked",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "32002e03-26b8-4484-ae6d-8e0a3cb26759"
+  }, {
+    "intent": "static.attendance.cant.mark",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "c07a09ca-a1da-4f05-911b-78e65c9ab1d1"
+  }, {
+    "intent": "prob.cant-connect.wifi",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "c1db0546-0329-44cd-8afd-c7731c8fd2ef"
+  }, {
+    "intent": "prob.cant.microsoft.acc",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "381215e9-90ce-4f22-86e9-a705783ac82e"
+  }, {
+    "intent": "prob.dle.no.access",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "9570b2f7-f98c-4a65-94dd-9b503db931b7"
+  }, {
+    "intent": "prob.forgot-pw.dle",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "f0383836-f9df-444d-835b-30e261c47e4e"
+  }, {
+    "intent": "prob.forgot-pw.microsoft",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "a8fa6368-12c6-4707-b145-66265549a709"
+  }, {
+    "intent": "prob.forgot-pw.nlearn",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "3831d2c2-d043-45ba-a14a-dd0b033e3ab0"
+  }, {
+    "intent": "prob.nlearn.no.access",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "5a9f6aa6-7b86-4d28-937c-9b2738317ba4"
+  }, {
+    "intent": "prob.no.email",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "6892acc3-291a-43d5-9d6c-a9ddd230a497"
+  }, {
+    "intent": "prob.no.exam.result",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "9d970ebd-d184-49b1-ad0f-c7494b97174b"
+  }, {
+    "intent": "prob.office-acc.locked",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "3c79dac4-62d6-4dd6-bcd2-b7dca7aaf0ce"
+  }, {
+    "intent": "prob.weak.wifi",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Temp Solution",
+    "name": "9aa91ac5-39e7-4cb3-8bcc-69d79b4406f9"
+  } ]
+}

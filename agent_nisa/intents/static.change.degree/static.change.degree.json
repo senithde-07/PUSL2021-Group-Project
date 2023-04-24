@@ -1,0 +1,10 @@
+{
+  "name": "76d9e4a0-4819-4e06-b8b0-e8aace1b6da4",
+  "displayName": "static.change.degree",
+  "parameters": [ {
+    "id": "departments",
+    "entityType": "@departments"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about changing the dgree"
+}

@@ -1,0 +1,20 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "nsbm id",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Where to get the NSBM",
+      "auto": true
+    }, {
+      "text": " ID",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

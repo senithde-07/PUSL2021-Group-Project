@@ -1,0 +1,23 @@
+{
+  "name": "e1274490-5e7d-44fa-99f7-35630927c802",
+  "displayName": "stupid questions",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hey, don't say/do stupid things" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "c820b5f5-96a8-4bdd-a467-01e799c6ae5a"
+  } ]
+}

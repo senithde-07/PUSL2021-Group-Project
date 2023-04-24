@@ -1,0 +1,23 @@
+{
+  "name": "9072083c-798c-4767-aaef-2b221238a7e1",
+  "displayName": "Late payment",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "If you cannot make the payment by the deadline or within a week after the deadline,your account may be suspended or closed until the payment is made.", "Failure to make payment by the deadline or within a week after the deadline may result in the suspension or closure of your account.\n" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "110254ed-f1ff-46f2-9b6c-f787a6f479f0"
+  } ]
+}

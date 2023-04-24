@@ -1,0 +1,7 @@
+{
+  "entities": [ {
+    "value": "problem",
+    "synonyms": [ "I am facing a problem", "i am facing a technical problem", "i cannot", "i cant", "i couldnt", "i have a problem", "i have a query", "i have an issue", "i have encountered an technical issue", "i wont", "not recieving ", "not working", "problem", "slow" ],
+    "languageCode": "en"
+  } ]
+}

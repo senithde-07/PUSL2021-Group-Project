@@ -1,0 +1,23 @@
+{
+  "name": "02aead29-baa3-4642-9ff2-0436fec6604f",
+  "displayName": "Submit EC",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "In the process of submitting the Extenuating Circumstances form generally, you should follow these steps:\n\nObtain the EC form which is available online by login into your Nlearn account through the link: https://sites.google.com/view/nsbmexaminations\n\nFill out the EC form completely and accurately. Make sure to include all relevant information and sign the form where required.\n\nAttach any necessary supporting documents, such as a doctor's note or a death certificate, if you request an excused absence due to illness or bereavement.\n\nNext, Submit the EC form. \n\nFollow up with the university to confirm that your EC form has been received and processed. If you do not hear back within a reasonable amount of time, you may need to follow up again to ensure that your absence has been excused.\n\nIt's always a good idea to familiarize yourself with your university's policies and procedures related to excused absences and make sure to submit your EC form in a timely manner to avoid any negative consequences for your academic progress." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "9fabb57b-3640-42d1-ac36-8eda020f76c8"
+  } ]
+}

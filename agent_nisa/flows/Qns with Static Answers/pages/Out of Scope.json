@@ -1,0 +1,23 @@
+{
+  "name": "ba90f5a1-99be-4750-a705-033a38c0130c",
+  "displayName": "Out of Scope",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I am sorry! This is beyond my knowledge. I can support you with the matters regarding the Faculty of Computing only!" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "47def6d4-f782-4989-acdd-c3d836f21529"
+  } ]
+}

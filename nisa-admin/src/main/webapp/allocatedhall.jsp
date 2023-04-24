@@ -266,8 +266,7 @@
                 <%=resultSet.getString("day")%>
             </th>
             <td class="px-6 py-4 text-black border-r dark:border-neutral-500 text-center">
-                <a href="<%=resultSet.getString("timetable_link")%>"><%=resultSet.getString("timetable_link")%>
-                </a>
+                <a href="https://<%=resultSet.getString("timetable_link")%>"target="_blank">Click Here</a>
             </td>
         </tr>
         <%

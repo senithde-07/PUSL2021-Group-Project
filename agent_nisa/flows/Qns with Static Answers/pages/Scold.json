@@ -1,0 +1,23 @@
+{
+  "name": "1baba27b-efc7-40b3-9a46-38a5ad4efdff",
+  "displayName": "Scold",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ " I am not capable of being offended or upset by anything that someone may say. My purpose is to provide helpful responses and assist with any questions or concerns you may have. If someone scolds, I would suggest responding calmly and professionally, and try to understand the reason for their frustration. Remember, it's important to remain respectful and courteous, even in difficult situations." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "b877be50-c7ef-4947-a891-fd101e06d579"
+  } ]
+}

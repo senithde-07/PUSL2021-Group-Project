@@ -1,0 +1,76 @@
+{
+  "name": "fdc4e69a-d710-4796-81df-fda25d469980",
+  "displayName": "Dept Info",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "conditionalCases": [ {
+      "cases": [ {
+        "condition": "$session.params.departments = \"Department of Data Science\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "The Department of Data Science (DDS) was established under the Faculty of Computing on the day   of 15th December 2020. The department is focused to be the leader in the discipline of Data       Science in Sri Lanka which include knowledge contribution from the key areas of Artificial       Intelligence, Machine Learning, Deep Learning, Natural Language processing, Data Mining,         Statistical Modeling, Simulation, Optimization and Visualization. DDS is preparing to conduct     seminars, workshops, and an annual conference in Data Science as its future activities. The       department is aiming to disseminate knowledge and spread the global opportunities" ]
+            },
+            "languageCode": "en"
+          }
+        }, {
+          "message": {
+            "text": {
+              "text": [ "and business transformation trends with this highly sort after discipline of data science." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.departments = \"Department of Network and Security\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "The Department of Network and Security comes under the Faculty of Computing that offers           industry-focused local, and international degree programs specialized in the field of             networking and security. The department offers unique opportunities to achieve the students       their dream career in the fields of networking and security and Information Communication         Technology. The Department of Network and Security is focused on 3 main areas namely, Data       Communication Networks, Infrastructure Systems (Servers, Datacenters) and Security (both system   and infrastructure). The department has established affiliations with leading Internet Service   Providers (ISP) of the country, to provide a real time experience of the finest technological     platforms in the aforementioned areas." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.departments = \"Department of Computer Science and Software Engineering\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "The Department of Computer Science \u0026 Software Engineering is the largest department of the       Faculty of Computing. It offers industry-focused, local, and international degree programs in     relation to the most demanding skills in Computer Science, Software Engineering, and Web \u0026       Mobile Application Development. From institution inception to today, thousands of high-caliber   graduates are produced, and they are employed at leading IT related industries in Sri Lanka and   overseas. The department’s key focus is to identify the students’ potential \u0026 empower and         transform them into globally competitive graduates with the right skills, knowledge, and         attitudes to achieve their dream career. The department is comprised of faculty academic staff   with high academic achievements and research background and the visiting staff from the           industry to teach cutting edge technology and industry best practices" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.departments = \"Department of Information and Systems Sciences\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "The Department of Information and Systems Sciences focuses on developing professionals who are   the experts in both IT and business domains. Such a blissful blend promotes developing           graduates with both social skills and analytical skills. The core of our curriculum reflects     quite well the model created by the Association of Information Systems (AIS), an international   society of ISS researchers and teachers. The academic activities at the department range over a   wide field characterized by interdisciplinary elements and are focused on developing and         adapting the use of IT to the needs of people, organizations and society. The employment rate     of our students is extremely high, and they get right positions in both IT and Management         sectors organizations recognizing their expertise in both business and IT domain." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "There is no such department! Sorry for the inconvinience." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      } ]
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "1c83eacb-880b-4153-b178-3b56b3ae2baa"
+  } ]
+}

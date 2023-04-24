@@ -1,0 +1,214 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "who is sampath",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "who is ",
+      "auto": true
+    }, {
+      "text": "chamara",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "tell me about "
+    }, {
+      "text": "mr. chamindra",
+      "parameterId": "lecturer-names"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "pramudya sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What ",
+      "auto": true
+    }, {
+      "text": "chamara sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": " does",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Want to know about ",
+      "auto": true
+    }, {
+      "text": "Naji sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "who is ",
+      "auto": true
+    }, {
+      "text": "Mr. Mohamed Shafraz",
+      "parameterId": "lecturer-names",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you provide me with some details on ",
+      "auto": true
+    }, {
+      "text": "Chamindra Attanayake",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I would like to know more about Mr.",
+      "auto": true
+    }, {
+      "text": "Batan",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": ". Could you help me out?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What can you tell me about ",
+      "auto": true
+    }, {
+      "text": "Dulanjali miss",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "May I know who ",
+      "auto": true
+    }, {
+      "text": "Chamindra Attanayake",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": " is?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Would you be able to tell me about ",
+      "auto": true
+    }, {
+      "text": "Isuru sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Who exactly ",
+      "auto": true
+    }, {
+      "text": "nethmi miss",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": " is?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Do you know anything about ",
+      "auto": true
+    }, {
+      "text": "Chamindra Attanayake",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you give me some information about ",
+      "auto": true
+    }, {
+      "text": "gayan sir",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm curious, who is ",
+      "auto": true
+    }, {
+      "text": "Pramudya Thilakarathne",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you tell me who ",
+      "auto": true
+    }, {
+      "text": "Chamindra Attanayake",
+      "parameterId": "lecturer-names",
+      "auto": true
+    }, {
+      "text": " is?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

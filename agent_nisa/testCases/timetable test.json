@@ -1,0 +1,72 @@
+{
+  "name": "3043fc27-f220-4cf0-a7d5-c259426d49f6",
+  "displayName": "timetable test",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hi"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Hi, I'm NISA the official chatbot of Faculty of Computing of NSBM Green University. How can I assist you today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/university-chatbot-381515/locations/global/agents/8fb3e38c-a89e-4a27-85a1-d3e5a6db3109/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "today lectures"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "date-time": {
+          "day": 15,
+          "month": 4,
+          "year": 2023
+        }
+      },
+      "triggeredIntent": {
+        "name": "static.webhook.hall.allocation"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Hall Allocation for 2023-04-15 hasn't been added yet\nSorry for the inconvinence!" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/university-chatbot-381515/locations/global/agents/8fb3e38c-a89e-4a27-85a1-d3e5a6db3109/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1681557965,
+    "nanos": 666333000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

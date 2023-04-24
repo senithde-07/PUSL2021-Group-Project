@@ -1,0 +1,177 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Is CN degree is difficult",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How hard "
+    }, {
+      "text": "computer network degree",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " is"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How hard is it to earn a degree in computer ",
+      "auto": true
+    }, {
+      "text": "networking",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is studying for a computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " degree ",
+      "auto": true
+    }, {
+      "text": "is difficult?",
+      "parameterId": "technical-problems",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Would you",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " consider a computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " degree ",
+      "auto": true
+    }, {
+      "text": "to be a difficult",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " program to complete?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How ",
+      "auto": true
+    }, {
+      "text": "tough is",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " it to pursue a degree in CN?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is a computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " degree a challenging course of study?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is it a difficult task to complete a computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " degree?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How challenging is a computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " degree?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can i know ",
+      "auto": true
+    }, {
+      "text": "is it tough",
+      "parameterId": "technical-problems",
+      "auto": true
+    }, {
+      "text": " to do CN.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How hard the computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " degree is",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is degree on computer ",
+      "auto": true
+    }, {
+      "text": "network",
+      "parameterId": "departments",
+      "auto": true
+    }, {
+      "text": " is hard",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "yes",
+    "synonyms": [ "definetly", "hell yeah", "if you don't mind", "of course", "sure", "surely", "That'd be great", "yeah", "yes" ],
+    "languageCode": "en"
+  }, {
+    "value": "no",
+    "synonyms": [ "nah im good", "nahh", "no", "no im fine", "no need", "no thanks", "not for now", "thanks but no" ],
+    "languageCode": "en"
+  } ]
+}

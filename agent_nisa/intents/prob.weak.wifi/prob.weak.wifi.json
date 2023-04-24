@@ -1,0 +1,13 @@
+{
+  "name": "189e8378-61ff-4cd2-a796-926f0871bd10",
+  "displayName": "prob.weak.wifi",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "When Wi-Fi signal is weak"
+}

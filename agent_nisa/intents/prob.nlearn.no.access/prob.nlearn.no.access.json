@@ -1,0 +1,13 @@
+{
+  "name": "7cb06aad-b284-41de-896e-1b111e9c0b3b",
+  "displayName": "prob.nlearn.no.access",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "This triggers when a user enters a phrase saying no access to nlearn"
+}

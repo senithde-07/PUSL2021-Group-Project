@@ -1,0 +1,10 @@
+{
+  "name": "0a81f70a-581c-44fb-8ad7-fc6e1b740d9a",
+  "displayName": "id.student",
+  "parameters": [ {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "Triggers when a user enters a student ID"
+}

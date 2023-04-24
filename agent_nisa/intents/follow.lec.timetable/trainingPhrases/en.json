@@ -1,0 +1,501 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "21.1",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "y2s2",
+      "parameterId": "semesters"
+    }, {
+      "text": " timetable link"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "1st year 1st semester",
+      "parameterId": "semesters"
+    }, {
+      "text": " "
+    }, {
+      "text": "ugc",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "23.1",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": " timetable"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "1st year 1st semester",
+      "parameterId": "semesters"
+    }, {
+      "text": " timetable"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "victoria",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "21.1",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "1st year second sem",
+      "parameterId": "semesters"
+    }, {
+      "text": " timetable"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "give me the ",
+      "auto": true
+    }, {
+      "text": "ugc",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "22.1",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": " timetable",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "ugc",
+      "parameterId": "degree-offerer",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "victoria",
+      "parameterId": "degree-offerer",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Victoria",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " timetable",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "UGC",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " timetable",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " timetable",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Send the ",
+      "auto": true
+    }, {
+      "text": "plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " time table",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm looking for the timetable for Batch ",
+      "auto": true
+    }, {
+      "text": "20.2",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": ". I am following a ",
+      "auto": true
+    }, {
+      "text": "plymouth degree",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": ". Could you please share it with me?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the lecture timings for Batch ",
+      "auto": true
+    }, {
+      "text": "20.3",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you provide me with the timetable for Batch ",
+      "auto": true
+    }, {
+      "text": "22.1",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the lecture schedule for Batch "
+    }, {
+      "text": "20.3",
+      "parameterId": "batch"
+    }, {
+      "text": " "
+    }, {
+      "text": "ugc",
+      "parameterId": "degree-offerer",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm looking for the timetable for this semester. Could you assist me with that?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "May I have the lecture schedule for this semester.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is there a timetable available for this semester that I can access?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "lecture schedule for us",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "this semester lecture schedule",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "this semester timetable link",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "this semester timetable",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "timetable link please",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Could you please send me the timetable for this semester?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I would like to request the schedule for this semester.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you provide me with the semester's timetable?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you provide me with the academic timetable for this sem?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "what is the timetable for ",
+      "auto": true
+    }, {
+      "text": "22.2",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": " batch",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the timetable for the current academic semester?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you tell me about the schedule for the academic courses?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need information on the academic timetable.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the timetable for this semester?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "May I have the schedule for this semester.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need to know the schedule for this semester.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you give me the lecture schedule for this academic term?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you give me the schedule for this academic term?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "send me the timetable link for "
+    }, {
+      "text": "22.1",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": " batch "
+    }, {
+      "text": "plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "send me the timetable link for ",
+      "auto": true
+    }, {
+      "text": "22.1",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": " batch",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is the timetable for "
+    }, {
+      "text": "23.1",
+      "parameterId": "batch"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you provide me with the academic schedule?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "lecture timetable please",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "19.2",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "ugc",
+      "parameterId": "degree-offerer",
+      "auto": true
+    }, {
+      "text": " timetable",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "timtable of ",
+      "auto": true
+    }, {
+      "text": "21.1",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": " batch ",
+      "auto": true
+    }, {
+      "text": "plymouth",
+      "parameterId": "degree-offerer",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "give the the timetable of ",
+      "auto": true
+    }, {
+      "text": "21.1",
+      "parameterId": "batch",
+      "auto": true
+    }, {
+      "text": " batch",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you provide me with the timetable for Batch ",
+      "auto": true
+    }, {
+      "text": "21.1",
+      "parameterId": "batch",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

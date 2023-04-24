@@ -1,0 +1,16 @@
+{
+  "name": "965d3430-7374-44af-a523-4c4127c0219d",
+  "displayName": "static.free.mail.services",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "technical-problems1",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "technical-problems2",
+    "entityType": "@technical-problems"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about free services that can recieve by using campus mail."
+}

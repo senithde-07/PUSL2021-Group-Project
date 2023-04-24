@@ -1,0 +1,43 @@
+{
+  "entities": [ {
+    "value": "19.1",
+    "synonyms": [ "19.1", "nineteen point one" ],
+    "languageCode": "en"
+  }, {
+    "value": "19.2",
+    "synonyms": [ "19.2", "nineteen point two" ],
+    "languageCode": "en"
+  }, {
+    "value": "20.1",
+    "synonyms": [ "20.1", "twenty point one" ],
+    "languageCode": "en"
+  }, {
+    "value": "20.2",
+    "synonyms": [ "20.2", "twenty point two" ],
+    "languageCode": "en"
+  }, {
+    "value": "20.3",
+    "synonyms": [ "20.3", "twenty point three" ],
+    "languageCode": "en"
+  }, {
+    "value": "21.1",
+    "synonyms": [ "21.1", "twenty one point one" ],
+    "languageCode": "en"
+  }, {
+    "value": "21.2",
+    "synonyms": [ "21.2", "twenty one point two" ],
+    "languageCode": "en"
+  }, {
+    "value": "22.1",
+    "synonyms": [ "22.1", "twenty two point one" ],
+    "languageCode": "en"
+  }, {
+    "value": "22.2",
+    "synonyms": [ "22.2", "twenty two point two" ],
+    "languageCode": "en"
+  }, {
+    "value": "23.1",
+    "synonyms": [ "23.1", "twenty three point one" ],
+    "languageCode": "en"
+  } ]
+}

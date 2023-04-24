@@ -1,0 +1,6 @@
+{
+  "name": "f0d9a1f9-1186-4fc3-84a5-2d33eaf4ff8f",
+  "displayName": "student-id",
+  "kind": "KIND_REGEXP",
+  "enableFuzzyExtraction": true
+}

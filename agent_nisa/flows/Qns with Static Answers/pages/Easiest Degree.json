@@ -1,0 +1,23 @@
+{
+  "name": "b5c7bf5e-115f-45be-b3ad-ee390fc1a53f",
+  "displayName": "Easiest Degree",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The \"easiest\" IT degree will depend on your own interests, skills, and learning style. It's important to research different programs and speak with advisors to determine which degree will best fit your individual needs and goals." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "c726c48c-0849-4eb6-8ccd-c3b235137adb"
+  } ]
+}

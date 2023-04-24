@@ -1,0 +1,9 @@
+{
+  "name": "53f21224-1be4-4ad5-8a86-e8b0820ab343",
+  "displayName": "vary.lecture.hall.location",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  } ],
+  "priority": 500000
+}

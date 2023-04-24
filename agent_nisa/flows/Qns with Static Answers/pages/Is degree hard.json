@@ -1,0 +1,23 @@
+{
+  "name": "d07dcb43-d75a-4329-bd1c-98353a15b51a",
+  "displayName": "Is degree hard",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The difficulty level of a degree can vary depending on the subject, the individual's background knowledge and aptitude, and other factors. Some degrees may be more challenging than others, and some people may find certain subjects more difficult than others.\n\nIn general, pursuing a degree requires dedication, hard work, and a commitment to learning. While it may be challenging at times, it can also be rewarding and can lead to a variety of career opportunities. With perseverance and a willingness to put in the effort, many people are able to successfully complete their degree programs." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "8ced9917-12c6-443f-89f7-52630d96e2bc"
+  } ]
+}

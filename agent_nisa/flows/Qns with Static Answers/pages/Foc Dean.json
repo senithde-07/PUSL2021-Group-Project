@@ -1,0 +1,23 @@
+{
+  "name": "448777d9-810c-43ec-a82a-6613feb995dc",
+  "displayName": "Foc Dean",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The Dean of the Faculty of Computing at this time is Dr. Rasika Ranaweera." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "bc8e93ca-f50f-466b-bbde-00ac82c4f05c"
+  } ]
+}

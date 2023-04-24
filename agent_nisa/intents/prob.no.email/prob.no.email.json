@@ -1,0 +1,13 @@
+{
+  "name": "eb667b7d-ddc4-4e29-8ccb-a5bb23ecb196",
+  "displayName": "prob.no.email",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "student-id",
+    "entityType": "@student-id"
+  } ],
+  "priority": 500000,
+  "description": "This triggers when user enters that they won't recieve emails"
+}

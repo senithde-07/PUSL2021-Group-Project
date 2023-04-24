@@ -1,0 +1,23 @@
+{
+  "name": "ae5a213a-086c-43da-8b9b-4de2ea12faca",
+  "displayName": "exam pass rate",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The university exam pass rate refers to the percentage of students who pass the university exams in a particular academic year. The pass rate is calculated by dividing the number of students who passed the exams by the total number of students who took the exams.\n\nThe pass rate can vary widely depending on the university, the course, and the level of difficulty of the exams." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "e775bf59-6206-4027-8daa-af119e63ad9d"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "b0a5265e-a425-4f59-86a5-add11bb6b624",
+  "displayName": "static.plymouth.course.directer",
+  "parameters": [ {
+    "id": "degree-offerer",
+    "entityType": "@degree-offerer"
+  }, {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about plymouth course directer."
+}

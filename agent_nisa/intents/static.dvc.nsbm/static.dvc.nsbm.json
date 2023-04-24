@@ -1,0 +1,10 @@
+{
+  "name": "a4a1670e-fb75-42e7-8466-53aa5e04f93b",
+  "displayName": "static.dvc.nsbm",
+  "parameters": [ {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when user asks about DVC of NSBM."
+}

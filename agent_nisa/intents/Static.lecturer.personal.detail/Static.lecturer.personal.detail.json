@@ -1,0 +1,19 @@
+{
+  "name": "d7bbd6b3-c9d6-4de1-bae9-7be07e16e3cd",
+  "displayName": "Static.lecturer.personal.detail",
+  "parameters": [ {
+    "id": "lecturer-names",
+    "entityType": "@lecturer-names"
+  }, {
+    "id": "technical-problems",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "technical-problems1",
+    "entityType": "@technical-problems"
+  }, {
+    "id": "yes-no",
+    "entityType": "@yes-no"
+  } ],
+  "priority": 500000,
+  "description": "This triggers when user asks about personal details of lecturers."
+}
